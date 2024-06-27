@@ -1,0 +1,1412 @@
+[2024-06-23 20:14:50] [ INFO ] [BD:38] tabla creada con exito
+[2024-06-23 20:30:35] [ INFO ] [BD:38] tabla creada con exito
+[2024-06-23 20:30:44] [ INFO ] [PacienteDAOH2:27] inicando la operacion de guardado de paciente
+[2024-06-23 20:30:44] [ INFO ] [DomicilioDaoH2:37] Domicilio guardado con exito
+[2024-06-23 20:30:44] [ INFO ] [PacienteDAOH2:45] Paciente guardado con exito: 
+ Paciente{nombre='Luciana', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=Domicilio{calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email=luciani@gmail.com}
+[2024-06-23 21:05:54] [ INFO ] [BD:38] tabla creada con exito
+[2024-06-23 21:06:05] [ INFO ] [PacienteDAOH2:28] inicando la operacion de guardado de paciente
+[2024-06-23 21:06:05] [ INFO ] [DomicilioDaoH2:25] Iniciando la operacion de guardado de domicilo
+[2024-06-23 21:06:05] [ INFO ] [DomicilioDaoH2:39] Domicilio guardado con exito
+[2024-06-23 21:06:05] [ INFO ] [PacienteDAOH2:46] Paciente guardado con exito: 
+ Paciente{nombre='Luciana', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=Domicilio{calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email=luciani@gmail.com}
+[2024-06-23 21:21:29] [ INFO ] [PacienteDAOH2:56] iniciando la busqueda de un paciente por id: null
+[2024-06-23 21:21:29] [ WARN ] [PacienteDAOH2:72] Cannot invoke "java.lang.Integer.intValue()" because "id" is null
+[2024-06-23 21:24:22] [ INFO ] [BD:38] tabla creada con exito
+[2024-06-23 21:24:40] [ INFO ] [PacienteDAOH2:28] inicando la operacion de guardado de paciente
+[2024-06-23 21:24:40] [ INFO ] [DomicilioDaoH2:25] Iniciando la operacion de guardado de domicilo
+[2024-06-23 21:24:40] [ INFO ] [DomicilioDaoH2:39] Domicilio guardado con exito
+[2024-06-23 21:24:40] [ INFO ] [PacienteDAOH2:46] Paciente guardado con exito: 
+ Paciente{nombre='Luciana', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=Domicilio{calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email=luciani@gmail.com}
+[2024-06-23 21:24:43] [ INFO ] [PacienteDAOH2:56] iniciando la busqueda de un paciente por id: 3
+[2024-06-23 21:24:43] [ INFO ] [DomicilioDaoH2:48] Iniciando la operacion de busqueda de domicilo
+[2024-06-23 21:24:43] [ INFO ] [PacienteDAOH2:70] Paciente encontrado: 
+ Paciente{nombre='Luciana', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=Domicilio{calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email=luciani@gmail.com}
+[2024-06-23 21:24:43] [ INFO ] [PacienteDAOH2:79] Iniciando la actualizacion de paciente: Luciana con id: 3
+[2024-06-23 21:24:43] [ INFO ] [DomicilioDaoH2:68] Iniciando la operacion de actualizar un domicilio
+[2024-06-23 21:28:04] [ INFO ] [BD:38] tabla creada con exito
+[2024-06-23 21:28:12] [ INFO ] [PacienteDAOH2:28] inicando la operacion de guardado de paciente
+[2024-06-23 21:28:12] [ INFO ] [DomicilioDaoH2:25] Iniciando la operacion de guardado de domicilo
+[2024-06-23 21:28:12] [ INFO ] [DomicilioDaoH2:39] Domicilio guardado con exito
+[2024-06-23 21:28:12] [ INFO ] [PacienteDAOH2:46] Paciente guardado con exito: 
+ Paciente{nombre='Luciana', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=Domicilio{calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email=luciani@gmail.com}
+[2024-06-23 21:28:14] [ INFO ] [PacienteDAOH2:56] iniciando la busqueda de un paciente por id: 3
+[2024-06-23 21:28:14] [ INFO ] [DomicilioDaoH2:48] Iniciando la operacion de busqueda de domicilo
+[2024-06-23 21:28:14] [ INFO ] [PacienteDAOH2:70] Paciente encontrado: 
+ Paciente{nombre='Luciana', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=Domicilio{calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email=luciani@gmail.com}
+[2024-06-23 21:28:14] [ INFO ] [PacienteDAOH2:79] Iniciando la actualizacion de paciente: Luciana con id: 3
+[2024-06-23 21:28:14] [ INFO ] [DomicilioDaoH2:68] Iniciando la operacion de actualizar un domicilio
+[2024-06-23 21:28:14] [ INFO ] [PacienteDAOH2:94] Paciente actualizado con exito
+[2024-06-23 21:30:14] [ INFO ] [BD:38] tabla creada con exito
+[2024-06-23 21:30:22] [ INFO ] [PacienteDAOH2:28] inicando la operacion de guardado de paciente
+[2024-06-23 21:30:22] [ INFO ] [DomicilioDaoH2:25] Iniciando la operacion de guardado de domicilo
+[2024-06-23 21:30:22] [ WARN ] [PacienteDAOH2:49] Table "PACIENTES" not found (this database is empty); SQL statement:
+INSERT INTO PACIENTES (NOMBRE, APELLIDO, CEDULA, FECHA_INGRESO, DOMICILIO_ID, EMAIL) VALUES(?,?,?,?,?,?) [42104-224]
+[2024-06-23 21:31:19] [ INFO ] [BD:38] tabla creada con exito
+[2024-06-23 21:31:27] [ INFO ] [PacienteDAOH2:28] inicando la operacion de guardado de paciente
+[2024-06-23 21:31:27] [ INFO ] [DomicilioDaoH2:25] Iniciando la operacion de guardado de domicilo
+[2024-06-23 21:31:27] [ INFO ] [DomicilioDaoH2:39] Domicilio guardado con exito
+[2024-06-23 21:31:27] [ INFO ] [PacienteDAOH2:46] Paciente guardado con exito: 
+ Paciente{nombre='Luciana', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=Domicilio{calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email=luciani@gmail.com}
+[2024-06-23 21:31:31] [ INFO ] [PacienteDAOH2:56] iniciando la busqueda de un paciente por id: 3
+[2024-06-23 21:31:31] [ INFO ] [DomicilioDaoH2:48] Iniciando la operacion de busqueda de domicilo
+[2024-06-23 21:31:31] [ INFO ] [PacienteDAOH2:70] Paciente encontrado: 
+ Paciente{nombre='Luciana', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=Domicilio{calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email=luciani@gmail.com}
+[2024-06-23 21:31:31] [ INFO ] [PacienteDAOH2:79] Iniciando la actualizacion de paciente: Luciana con id: 3
+[2024-06-23 21:31:31] [ INFO ] [DomicilioDaoH2:68] Iniciando la operacion de actualizar un domicilio
+[2024-06-23 21:31:31] [ INFO ] [PacienteDAOH2:94] Paciente actualizado con exito
+[2024-06-23 21:37:24] [ INFO ] [PacienteDAOH2:28] inicando la operacion de guardado de paciente
+[2024-06-23 21:37:24] [ INFO ] [DomicilioDaoH2:25] Iniciando la operacion de guardado de domicilo
+[2024-06-23 21:37:24] [ INFO ] [DomicilioDaoH2:39] Domicilio guardado con exito
+[2024-06-23 21:37:24] [ INFO ] [PacienteDAOH2:46] Paciente guardado con exito: 
+ Paciente{nombre='Luciana', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=Domicilio{calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email=luciani@gmail.com}
+[2024-06-23 21:37:43] [ INFO ] [BD:38] tabla creada con exito
+[2024-06-23 21:37:47] [ INFO ] [PacienteDAOH2:28] inicando la operacion de guardado de paciente
+[2024-06-23 21:37:47] [ INFO ] [DomicilioDaoH2:25] Iniciando la operacion de guardado de domicilo
+[2024-06-23 21:37:47] [ INFO ] [DomicilioDaoH2:39] Domicilio guardado con exito
+[2024-06-23 21:37:47] [ INFO ] [PacienteDAOH2:46] Paciente guardado con exito: 
+ Paciente{nombre='Luciana', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=Domicilio{calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email=luciani@gmail.com}
+[2024-06-23 21:37:48] [ INFO ] [PacienteDAOH2:28] inicando la operacion de guardado de paciente
+[2024-06-23 21:37:48] [ INFO ] [DomicilioDaoH2:25] Iniciando la operacion de guardado de domicilo
+[2024-06-23 21:37:48] [ INFO ] [DomicilioDaoH2:39] Domicilio guardado con exito
+[2024-06-23 21:37:48] [ INFO ] [PacienteDAOH2:46] Paciente guardado con exito: 
+ Paciente{nombre='Luciana', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=Domicilio{calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email=luciani@gmail.com}
+[2024-06-23 21:37:49] [ INFO ] [PacienteDAOH2:28] inicando la operacion de guardado de paciente
+[2024-06-23 21:37:49] [ INFO ] [DomicilioDaoH2:25] Iniciando la operacion de guardado de domicilo
+[2024-06-23 21:37:49] [ INFO ] [DomicilioDaoH2:39] Domicilio guardado con exito
+[2024-06-23 21:37:49] [ INFO ] [PacienteDAOH2:46] Paciente guardado con exito: 
+ Paciente{nombre='Luciana', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=Domicilio{calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email=luciani@gmail.com}
+[2024-06-23 21:37:49] [ INFO ] [PacienteDAOH2:28] inicando la operacion de guardado de paciente
+[2024-06-23 21:37:49] [ INFO ] [DomicilioDaoH2:25] Iniciando la operacion de guardado de domicilo
+[2024-06-23 21:37:49] [ INFO ] [DomicilioDaoH2:39] Domicilio guardado con exito
+[2024-06-23 21:37:49] [ INFO ] [PacienteDAOH2:46] Paciente guardado con exito: 
+ Paciente{nombre='Luciana', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=Domicilio{calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email=luciani@gmail.com}
+[2024-06-23 21:51:28] [ INFO ] [PacienteDAOH2:56] iniciando la busqueda de un paciente por id: 3
+[2024-06-23 21:51:28] [ INFO ] [DomicilioDaoH2:48] Iniciando la operacion de busqueda de domicilo
+[2024-06-23 21:51:28] [ INFO ] [PacienteDAOH2:70] Paciente encontrado: 
+ Paciente{nombre='Luciana', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=Domicilio{calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email=luciani@gmail.com}
+[2024-06-23 21:51:28] [ INFO ] [PacienteDAOH2:79] Iniciando la actualizacion de paciente: Luciana con id: 3
+[2024-06-23 21:51:28] [ INFO ] [DomicilioDaoH2:68] Iniciando la operacion de actualizar un domicilio
+[2024-06-23 21:51:28] [ INFO ] [PacienteDAOH2:94] Paciente actualizado con exito
+[2024-06-23 21:54:06] [ INFO ] [PacienteDAOH2:28] inicando la operacion de guardado de paciente
+[2024-06-23 21:54:06] [ INFO ] [DomicilioDaoH2:25] Iniciando la operacion de guardado de domicilo
+[2024-06-23 21:54:06] [ INFO ] [DomicilioDaoH2:39] Domicilio guardado con exito
+[2024-06-23 21:54:06] [ INFO ] [PacienteDAOH2:46] Paciente guardado con exito: 
+ Paciente{nombre='Luciana', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=Domicilio{calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email=luciani@gmail.com}
+[2024-06-23 22:16:57] [ INFO ] [BD:38] tabla creada con exito
+[2024-06-23 22:17:01] [ INFO ] [PacienteDAOH2:118] Iniciando la busqueda de todos los pacientes
+[2024-06-23 22:17:01] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-23 22:17:01] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-23 22:17:01] [ INFO ] [PacienteDAOH2:134] [
+ Paciente{nombre='Jorgito', apellido='Pereyra', cedula='123456', fechaIngreso=2024-05-15, domicilio=Domicilio{calle='Siempre viva', numero=742, localidad='Springfield', provincia='USA'}, email=jorgito@gmail.com}, 
+ Paciente{nombre='Claudia', apellido='Heredia', cedula='11111111', fechaIngreso=2024-05-10, domicilio=Domicilio{calle='Siempre viva', numero=742, localidad='Springfield', provincia='USA'}, email=clau@gmail.com}]
+[2024-06-23 22:18:20] [ INFO ] [BD:38] tabla creada con exito
+[2024-06-23 22:18:29] [ INFO ] [PacienteDAOH2:28] inicando la operacion de guardado de paciente
+[2024-06-23 22:18:29] [ INFO ] [DomicilioDaoH2:29] Iniciando la operacion de guardado de domicilo
+[2024-06-23 22:18:29] [ INFO ] [DomicilioDaoH2:43] Domicilio guardado con exito
+[2024-06-23 22:18:29] [ INFO ] [PacienteDAOH2:46] Paciente guardado con exito: 
+ Paciente{nombre='Luciana', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=Domicilio{calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email=luciani@gmail.com}
+[2024-06-23 22:18:34] [ INFO ] [PacienteDAOH2:56] iniciando la busqueda de un paciente por id: 3
+[2024-06-23 22:18:34] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-23 22:18:34] [ INFO ] [PacienteDAOH2:70] Paciente encontrado: 
+ Paciente{nombre='Luciana', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=Domicilio{calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email=luciani@gmail.com}
+[2024-06-23 22:18:34] [ INFO ] [PacienteDAOH2:79] Iniciando la actualizacion de paciente: Luciana con id: 3
+[2024-06-23 22:18:34] [ INFO ] [DomicilioDaoH2:72] Iniciando la operacion de actualizar un domicilio
+[2024-06-23 22:18:34] [ INFO ] [PacienteDAOH2:94] Paciente actualizado con exito
+[2024-06-23 22:18:50] [ INFO ] [PacienteDAOH2:118] Iniciando la busqueda de todos los pacientes
+[2024-06-23 22:18:50] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-23 22:18:50] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-23 22:18:50] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-23 22:18:50] [ INFO ] [PacienteDAOH2:134] [
+ Paciente{nombre='Jorgito', apellido='Pereyra', cedula='123456', fechaIngreso=2024-05-15, domicilio=Domicilio{calle='Siempre viva', numero=742, localidad='Springfield', provincia='USA'}, email=jorgito@gmail.com}, 
+ Paciente{nombre='Claudia', apellido='Heredia', cedula='11111111', fechaIngreso=2024-05-10, domicilio=Domicilio{calle='Siempre viva', numero=742, localidad='Springfield', provincia='USA'}, email=clau@gmail.com}, 
+ Paciente{nombre='Luciana', apellido='Corrales', cedula='11111', fechaIngreso=2024-05-12, domicilio=Domicilio{calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email=luciani@gmail.com}]
+[2024-06-23 22:18:59] [ INFO ] [PacienteDAOH2:28] inicando la operacion de guardado de paciente
+[2024-06-23 22:18:59] [ INFO ] [DomicilioDaoH2:29] Iniciando la operacion de guardado de domicilo
+[2024-06-23 22:18:59] [ INFO ] [DomicilioDaoH2:43] Domicilio guardado con exito
+[2024-06-23 22:18:59] [ INFO ] [PacienteDAOH2:46] Paciente guardado con exito: 
+ Paciente{nombre='Luciana', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=Domicilio{calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email=luciani@gmail.com}
+[2024-06-23 22:19:02] [ INFO ] [PacienteDAOH2:118] Iniciando la busqueda de todos los pacientes
+[2024-06-23 22:19:02] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-23 22:19:02] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-23 22:19:02] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-23 22:19:02] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-23 22:19:02] [ INFO ] [PacienteDAOH2:134] [
+ Paciente{nombre='Jorgito', apellido='Pereyra', cedula='123456', fechaIngreso=2024-05-15, domicilio=Domicilio{calle='Siempre viva', numero=742, localidad='Springfield', provincia='USA'}, email=jorgito@gmail.com}, 
+ Paciente{nombre='Claudia', apellido='Heredia', cedula='11111111', fechaIngreso=2024-05-10, domicilio=Domicilio{calle='Siempre viva', numero=742, localidad='Springfield', provincia='USA'}, email=clau@gmail.com}, 
+ Paciente{nombre='Luciana', apellido='Corrales', cedula='11111', fechaIngreso=2024-05-12, domicilio=Domicilio{calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email=luciani@gmail.com}, 
+ Paciente{nombre='Luciana', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=Domicilio{calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email=luciani@gmail.com}]
+[2024-06-23 22:19:44] [ INFO ] [PacienteDAOH2:56] iniciando la busqueda de un paciente por id: 3
+[2024-06-23 22:19:44] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-23 22:19:44] [ INFO ] [PacienteDAOH2:70] Paciente encontrado: 
+ Paciente{nombre='Luciana', apellido='Corrales', cedula='11111', fechaIngreso=2024-05-12, domicilio=Domicilio{calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email=luciani@gmail.com}
+[2024-06-23 22:19:47] [ INFO ] [PacienteDAOH2:56] iniciando la busqueda de un paciente por id: 4
+[2024-06-23 22:19:47] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-23 22:19:47] [ INFO ] [PacienteDAOH2:70] Paciente encontrado: 
+ Paciente{nombre='Luciana', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=Domicilio{calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email=luciani@gmail.com}
+[2024-06-23 22:19:50] [ INFO ] [PacienteDAOH2:56] iniciando la busqueda de un paciente por id: 5
+[2024-06-23 22:19:50] [ INFO ] [PacienteDAOH2:70] Paciente encontrado: null
+[2024-06-23 22:19:54] [ INFO ] [PacienteDAOH2:56] iniciando la busqueda de un paciente por id: 1
+[2024-06-23 22:19:54] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-23 22:19:54] [ INFO ] [PacienteDAOH2:70] Paciente encontrado: 
+ Paciente{nombre='Jorgito', apellido='Pereyra', cedula='123456', fechaIngreso=2024-05-15, domicilio=Domicilio{calle='Siempre viva', numero=742, localidad='Springfield', provincia='USA'}, email=jorgito@gmail.com}
+[2024-06-24 16:13:58] [ INFO ] [BD:38] tabla creada con exito
+[2024-06-24 16:18:47] [ INFO ] [OdontologoDAOH2:101] inicando la operacion de buscar odontologos
+[2024-06-24 16:18:47] [ INFO ] [OdontologoDAOH2:116] Lista de odontólogos obtenida: [
+Odontologo{numeroMatricula=8744PD, nombre='SUSANA', apellido='RAMIREZ'}, 
+Odontologo{numeroMatricula=8745L, nombre='ARMANDO', apellido='CASAS'}]
+[2024-06-24 16:19:47] [ INFO ] [BD:38] tabla creada con exito
+[2024-06-24 16:23:43] [ INFO ] [OdontologoDAOH2:23] inicando la operacion de guardado de odontologo
+[2024-06-24 16:23:43] [ INFO ] [OdontologoDAOH2:36] Odontólogo guardado: 
+Odontologo{numeroMatricula=81223113, nombre='Ramon', apellido='RGonzales'}
+[2024-06-24 16:23:52] [ INFO ] [OdontologoDAOH2:23] inicando la operacion de guardado de odontologo
+[2024-06-24 16:23:52] [ INFO ] [OdontologoDAOH2:36] Odontólogo guardado: 
+Odontologo{numeroMatricula=81223113, nombre='Ramon', apellido='RGonzales'}
+[2024-06-24 16:24:17] [ INFO ] [OdontologoDAOH2:23] inicando la operacion de guardado de odontologo
+[2024-06-24 16:24:17] [ INFO ] [OdontologoDAOH2:36] Odontólogo guardado: 
+Odontologo{numeroMatricula=81223113, nombre='Ramon', apellido='RGonzales'}
+[2024-06-24 16:24:58] [ INFO ] [OdontologoDAOH2:46] iniciando la busqueda de un odontologo por id: 3
+[2024-06-24 16:25:04] [ INFO ] [OdontologoDAOH2:46] iniciando la busqueda de un odontologo por id: 5
+[2024-06-24 16:25:08] [ INFO ] [OdontologoDAOH2:46] iniciando la busqueda de un odontologo por id: 1
+[2024-06-24 16:25:12] [ INFO ] [OdontologoDAOH2:46] iniciando la busqueda de un odontologo por id: 6
+[2024-06-24 16:25:16] [ INFO ] [OdontologoDAOH2:46] iniciando la busqueda de un odontologo por id: 1
+[2024-06-24 16:25:59] [ INFO ] [OdontologoDAOH2:23] inicando la operacion de guardado de odontologo
+[2024-06-24 16:25:59] [ INFO ] [OdontologoDAOH2:36] Odontólogo guardado: 
+Odontologo{numeroMatricula=81223113, nombre='Ramon', apellido='RGonzales'}
+[2024-06-24 16:27:03] [ INFO ] [BD:38] tabla creada con exito
+[2024-06-24 16:27:45] [ INFO ] [OdontologoDAOH2:101] inicando la operacion de buscar odontologos
+[2024-06-24 16:27:45] [ INFO ] [OdontologoDAOH2:116] Lista de odontólogos obtenida: [
+Odontologo{numeroMatricula=8744PD, nombre='SUSANA', apellido='RAMIREZ'}, 
+Odontologo{numeroMatricula=8745L, nombre='ARMANDO', apellido='CASAS'}]
+[2024-06-24 16:29:29] [ INFO ] [OdontologoDAOH2:86] Iniciando la eliminación del odontólogo con ID: 1
+[2024-06-24 16:29:29] [ INFO ] [OdontologoDAOH2:93] Odontólogo eliminado con ID: 1
+[2024-06-24 16:29:33] [ INFO ] [OdontologoDAOH2:101] inicando la operacion de buscar odontologos
+[2024-06-24 16:29:33] [ INFO ] [OdontologoDAOH2:116] Lista de odontólogos obtenida: [
+Odontologo{numeroMatricula=8745L, nombre='ARMANDO', apellido='CASAS'}]
+[2024-06-24 16:30:08] [ INFO ] [BD:38] tabla creada con exito
+[2024-06-24 16:30:22] [ INFO ] [OdontologoDAOH2:101] inicando la operacion de buscar odontologos
+[2024-06-24 16:30:23] [ INFO ] [OdontologoDAOH2:116] Lista de odontólogos obtenida: [
+Odontologo{numeroMatricula=8744PD, nombre='SUSANA', apellido='RAMIREZ'}, 
+Odontologo{numeroMatricula=8745L, nombre='ARMANDO', apellido='CASAS'}]
+[2024-06-24 16:30:26] [ INFO ] [OdontologoDAOH2:46] iniciando la busqueda de un odontologo por id: 1
+[2024-06-24 16:31:19] [ INFO ] [OdontologoDAOH2:68] Iniciando la operación de actualizar un odontólogo con ID: null
+[2024-06-24 16:31:19] [ ERROR] [OdontologoDAOH2:80] Error al actualizar el odontólogo con ID: null
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "BackEnd.ClinicaOdontologica.model.Odontologo.getId()" is null
+	at BackEnd.ClinicaOdontologica.dao.OdontologoDAOH2.actualizar(OdontologoDAOH2.java:76)
+	at BackEnd.ClinicaOdontologica.dao.OdontologoDAOH2.actualizar(OdontologoDAOH2.java:13)
+	at BackEnd.ClinicaOdontologica.service.OdontologoService.actualizarOdontologo(OdontologoService.java:26)
+	at BackEnd.ClinicaOdontologica.controller.OdontologoController.actualizarOdontologo(OdontologoController.java:34)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:925)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:593)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-06-24 16:31:46] [ INFO ] [OdontologoDAOH2:101] inicando la operacion de buscar odontologos
+[2024-06-24 16:31:46] [ INFO ] [OdontologoDAOH2:116] Lista de odontólogos obtenida: [
+Odontologo{numeroMatricula=8744PD, nombre='SUSANA', apellido='RAMIREZ'}, 
+Odontologo{numeroMatricula=8745L, nombre='ARMANDO', apellido='CASAS'}]
+[2024-06-24 16:31:48] [ INFO ] [OdontologoDAOH2:101] inicando la operacion de buscar odontologos
+[2024-06-24 16:31:48] [ INFO ] [OdontologoDAOH2:116] Lista de odontólogos obtenida: [
+Odontologo{numeroMatricula=8744PD, nombre='SUSANA', apellido='RAMIREZ'}, 
+Odontologo{numeroMatricula=8745L, nombre='ARMANDO', apellido='CASAS'}]
+[2024-06-24 16:31:49] [ INFO ] [OdontologoDAOH2:101] inicando la operacion de buscar odontologos
+[2024-06-24 16:31:49] [ INFO ] [OdontologoDAOH2:116] Lista de odontólogos obtenida: [
+Odontologo{numeroMatricula=8744PD, nombre='SUSANA', apellido='RAMIREZ'}, 
+Odontologo{numeroMatricula=8745L, nombre='ARMANDO', apellido='CASAS'}]
+[2024-06-24 16:31:49] [ INFO ] [OdontologoDAOH2:101] inicando la operacion de buscar odontologos
+[2024-06-24 16:31:49] [ INFO ] [OdontologoDAOH2:116] Lista de odontólogos obtenida: [
+Odontologo{numeroMatricula=8744PD, nombre='SUSANA', apellido='RAMIREZ'}, 
+Odontologo{numeroMatricula=8745L, nombre='ARMANDO', apellido='CASAS'}]
+[2024-06-24 16:31:50] [ INFO ] [OdontologoDAOH2:101] inicando la operacion de buscar odontologos
+[2024-06-24 16:31:50] [ INFO ] [OdontologoDAOH2:116] Lista de odontólogos obtenida: [
+Odontologo{numeroMatricula=8744PD, nombre='SUSANA', apellido='RAMIREZ'}, 
+Odontologo{numeroMatricula=8745L, nombre='ARMANDO', apellido='CASAS'}]
+[2024-06-24 16:31:51] [ INFO ] [OdontologoDAOH2:101] inicando la operacion de buscar odontologos
+[2024-06-24 16:31:51] [ INFO ] [OdontologoDAOH2:116] Lista de odontólogos obtenida: [
+Odontologo{numeroMatricula=8744PD, nombre='SUSANA', apellido='RAMIREZ'}, 
+Odontologo{numeroMatricula=8745L, nombre='ARMANDO', apellido='CASAS'}]
+[2024-06-24 16:31:52] [ INFO ] [OdontologoDAOH2:101] inicando la operacion de buscar odontologos
+[2024-06-24 16:31:52] [ INFO ] [OdontologoDAOH2:116] Lista de odontólogos obtenida: [
+Odontologo{numeroMatricula=8744PD, nombre='SUSANA', apellido='RAMIREZ'}, 
+Odontologo{numeroMatricula=8745L, nombre='ARMANDO', apellido='CASAS'}]
+[2024-06-24 16:31:54] [ INFO ] [OdontologoDAOH2:68] Iniciando la operación de actualizar un odontólogo con ID: null
+[2024-06-24 16:31:54] [ ERROR] [OdontologoDAOH2:80] Error al actualizar el odontólogo con ID: null
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "BackEnd.ClinicaOdontologica.model.Odontologo.getId()" is null
+	at BackEnd.ClinicaOdontologica.dao.OdontologoDAOH2.actualizar(OdontologoDAOH2.java:76)
+	at BackEnd.ClinicaOdontologica.dao.OdontologoDAOH2.actualizar(OdontologoDAOH2.java:13)
+	at BackEnd.ClinicaOdontologica.service.OdontologoService.actualizarOdontologo(OdontologoService.java:26)
+	at BackEnd.ClinicaOdontologica.controller.OdontologoController.actualizarOdontologo(OdontologoController.java:34)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:925)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:593)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-06-24 16:31:55] [ INFO ] [OdontologoDAOH2:68] Iniciando la operación de actualizar un odontólogo con ID: null
+[2024-06-24 16:31:55] [ ERROR] [OdontologoDAOH2:80] Error al actualizar el odontólogo con ID: null
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "BackEnd.ClinicaOdontologica.model.Odontologo.getId()" is null
+	at BackEnd.ClinicaOdontologica.dao.OdontologoDAOH2.actualizar(OdontologoDAOH2.java:76)
+	at BackEnd.ClinicaOdontologica.dao.OdontologoDAOH2.actualizar(OdontologoDAOH2.java:13)
+	at BackEnd.ClinicaOdontologica.service.OdontologoService.actualizarOdontologo(OdontologoService.java:26)
+	at BackEnd.ClinicaOdontologica.controller.OdontologoController.actualizarOdontologo(OdontologoController.java:34)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:925)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:593)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-06-24 16:31:56] [ INFO ] [OdontologoDAOH2:68] Iniciando la operación de actualizar un odontólogo con ID: null
+[2024-06-24 16:31:56] [ ERROR] [OdontologoDAOH2:80] Error al actualizar el odontólogo con ID: null
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "BackEnd.ClinicaOdontologica.model.Odontologo.getId()" is null
+	at BackEnd.ClinicaOdontologica.dao.OdontologoDAOH2.actualizar(OdontologoDAOH2.java:76)
+	at BackEnd.ClinicaOdontologica.dao.OdontologoDAOH2.actualizar(OdontologoDAOH2.java:13)
+	at BackEnd.ClinicaOdontologica.service.OdontologoService.actualizarOdontologo(OdontologoService.java:26)
+	at BackEnd.ClinicaOdontologica.controller.OdontologoController.actualizarOdontologo(OdontologoController.java:34)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:925)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:593)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-06-24 16:32:02] [ INFO ] [OdontologoDAOH2:46] iniciando la busqueda de un odontologo por id: 1
+[2024-06-24 16:32:04] [ INFO ] [OdontologoDAOH2:46] iniciando la busqueda de un odontologo por id: 1
+[2024-06-24 16:32:04] [ INFO ] [OdontologoDAOH2:46] iniciando la busqueda de un odontologo por id: 1
+[2024-06-24 16:33:12] [ INFO ] [OdontologoDAOH2:68] Iniciando la operación de actualizar un odontólogo con ID: null
+[2024-06-24 16:33:12] [ ERROR] [OdontologoDAOH2:80] Error al actualizar el odontólogo con ID: null
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "BackEnd.ClinicaOdontologica.model.Odontologo.getId()" is null
+	at BackEnd.ClinicaOdontologica.dao.OdontologoDAOH2.actualizar(OdontologoDAOH2.java:76)
+	at BackEnd.ClinicaOdontologica.dao.OdontologoDAOH2.actualizar(OdontologoDAOH2.java:13)
+	at BackEnd.ClinicaOdontologica.service.OdontologoService.actualizarOdontologo(OdontologoService.java:26)
+	at BackEnd.ClinicaOdontologica.controller.OdontologoController.actualizarOdontologo(OdontologoController.java:34)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:925)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:593)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-06-24 16:33:38] [ INFO ] [OdontologoDAOH2:68] Iniciando la operación de actualizar un odontólogo con ID: 1
+[2024-06-24 16:33:38] [ INFO ] [OdontologoDAOH2:78] Odontólogo actualizado con éxito
+[2024-06-24 16:33:52] [ INFO ] [OdontologoDAOH2:101] inicando la operacion de buscar odontologos
+[2024-06-24 16:33:52] [ INFO ] [OdontologoDAOH2:116] Lista de odontólogos obtenida: [
+Odontologo{numeroMatricula=8744PD, nombre='Susy', apellido='Ramirez'}, 
+Odontologo{numeroMatricula=8745L, nombre='ARMANDO', apellido='CASAS'}]
+[2024-06-24 16:36:44] [ INFO ] [OdontologoDAOH2:86] Iniciando la eliminación del odontólogo con ID: 2
+[2024-06-24 16:36:44] [ INFO ] [OdontologoDAOH2:93] Odontólogo eliminado con ID: 2
+[2024-06-24 16:37:01] [ INFO ] [OdontologoDAOH2:101] inicando la operacion de buscar odontologos
+[2024-06-24 16:37:01] [ INFO ] [OdontologoDAOH2:116] Lista de odontólogos obtenida: [
+Odontologo{numeroMatricula=8744PD, nombre='Susy', apellido='Ramirez'}]
+[2024-06-24 16:37:53] [ INFO ] [PacienteDAOH2:56] iniciando la busqueda de un paciente por id: 1
+[2024-06-24 16:37:53] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-24 16:37:53] [ INFO ] [PacienteDAOH2:70] Paciente encontrado: 
+ Paciente{nombre='Jorgito', apellido='Pereyra', cedula='123456', fechaIngreso=2024-05-15, domicilio=Domicilio{calle='Siempre viva', numero=742, localidad='Springfield', provincia='USA'}, email=jorgito@gmail.com}
+[2024-06-24 16:38:02] [ INFO ] [PacienteDAOH2:118] Iniciando la busqueda de todos los pacientes
+[2024-06-24 16:38:02] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-24 16:38:02] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-24 16:38:02] [ INFO ] [PacienteDAOH2:134] [
+ Paciente{nombre='Jorgito', apellido='Pereyra', cedula='123456', fechaIngreso=2024-05-15, domicilio=Domicilio{calle='Siempre viva', numero=742, localidad='Springfield', provincia='USA'}, email=jorgito@gmail.com}, 
+ Paciente{nombre='Claudia', apellido='Heredia', cedula='11111111', fechaIngreso=2024-05-10, domicilio=Domicilio{calle='Siempre viva', numero=742, localidad='Springfield', provincia='USA'}, email=clau@gmail.com}]
+[2024-06-24 16:38:12] [ INFO ] [PacienteDAOH2:56] iniciando la busqueda de un paciente por id: 3
+[2024-06-24 16:38:12] [ INFO ] [PacienteDAOH2:70] Paciente encontrado: null
+[2024-06-24 16:38:22] [ INFO ] [PacienteDAOH2:28] inicando la operacion de guardado de paciente
+[2024-06-24 16:38:22] [ INFO ] [DomicilioDaoH2:29] Iniciando la operacion de guardado de domicilo
+[2024-06-24 16:38:22] [ INFO ] [DomicilioDaoH2:43] Domicilio guardado con exito
+[2024-06-24 16:38:22] [ INFO ] [PacienteDAOH2:46] Paciente guardado con exito: 
+ Paciente{nombre='Luciana', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=Domicilio{calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email=luciani@gmail.com}
+[2024-06-24 16:44:27] [ INFO ] [PacienteDAOH2:28] inicando la operacion de guardado de paciente
+[2024-06-24 16:44:27] [ INFO ] [DomicilioDaoH2:29] Iniciando la operacion de guardado de domicilo
+[2024-06-24 16:44:27] [ INFO ] [DomicilioDaoH2:43] Domicilio guardado con exito
+[2024-06-24 16:44:27] [ INFO ] [PacienteDAOH2:46] Paciente guardado con exito: 
+ Paciente{nombre='Luciana', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=Domicilio{calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email=luciani@gmail.com}
+[2024-06-24 16:47:33] [ INFO ] [BD:38] tabla creada con exito
+[2024-06-24 16:47:58] [ INFO ] [PacienteDAOH2:118] Iniciando la busqueda de todos los pacientes
+[2024-06-24 16:47:58] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-24 16:47:58] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-24 16:47:58] [ INFO ] [PacienteDAOH2:134] [
+ Paciente{nombre='Jorgito', apellido='Pereyra', cedula='123456', fechaIngreso=2024-05-15, domicilio=Domicilio{calle='Siempre viva', numero=742, localidad='Springfield', provincia='USA'}, email=jorgito@gmail.com}, 
+ Paciente{nombre='Claudia', apellido='Heredia', cedula='11111111', fechaIngreso=2024-05-10, domicilio=Domicilio{calle='Siempre viva', numero=742, localidad='Springfield', provincia='USA'}, email=clau@gmail.com}]
+[2024-06-24 16:48:00] [ INFO ] [PacienteDAOH2:28] inicando la operacion de guardado de paciente
+[2024-06-24 16:48:00] [ INFO ] [DomicilioDaoH2:29] Iniciando la operacion de guardado de domicilo
+[2024-06-24 16:48:00] [ INFO ] [DomicilioDaoH2:43] Domicilio guardado con exito
+[2024-06-24 16:48:00] [ INFO ] [PacienteDAOH2:46] Paciente guardado con exito: 
+ Paciente{nombre='Luciana', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=Domicilio{calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email=luciani@gmail.com}
+[2024-06-24 16:48:01] [ INFO ] [PacienteDAOH2:28] inicando la operacion de guardado de paciente
+[2024-06-24 16:48:01] [ INFO ] [DomicilioDaoH2:29] Iniciando la operacion de guardado de domicilo
+[2024-06-24 16:48:01] [ INFO ] [DomicilioDaoH2:43] Domicilio guardado con exito
+[2024-06-24 16:48:01] [ INFO ] [PacienteDAOH2:46] Paciente guardado con exito: 
+ Paciente{nombre='Luciana', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=Domicilio{calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email=luciani@gmail.com}
+[2024-06-24 16:48:02] [ INFO ] [PacienteDAOH2:28] inicando la operacion de guardado de paciente
+[2024-06-24 16:48:02] [ INFO ] [DomicilioDaoH2:29] Iniciando la operacion de guardado de domicilo
+[2024-06-24 16:48:02] [ INFO ] [DomicilioDaoH2:43] Domicilio guardado con exito
+[2024-06-24 16:48:02] [ INFO ] [PacienteDAOH2:46] Paciente guardado con exito: 
+ Paciente{nombre='Luciana', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=Domicilio{calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email=luciani@gmail.com}
+[2024-06-24 16:48:03] [ INFO ] [PacienteDAOH2:28] inicando la operacion de guardado de paciente
+[2024-06-24 16:48:03] [ INFO ] [DomicilioDaoH2:29] Iniciando la operacion de guardado de domicilo
+[2024-06-24 16:48:03] [ INFO ] [DomicilioDaoH2:43] Domicilio guardado con exito
+[2024-06-24 16:48:03] [ INFO ] [PacienteDAOH2:46] Paciente guardado con exito: 
+ Paciente{nombre='Luciana', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=Domicilio{calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email=luciani@gmail.com}
+[2024-06-24 16:48:05] [ INFO ] [PacienteDAOH2:118] Iniciando la busqueda de todos los pacientes
+[2024-06-24 16:48:05] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-24 16:48:05] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-24 16:48:05] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-24 16:48:05] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-24 16:48:05] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-24 16:48:05] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-24 16:48:05] [ INFO ] [PacienteDAOH2:134] [
+ Paciente{nombre='Jorgito', apellido='Pereyra', cedula='123456', fechaIngreso=2024-05-15, domicilio=Domicilio{calle='Siempre viva', numero=742, localidad='Springfield', provincia='USA'}, email=jorgito@gmail.com}, 
+ Paciente{nombre='Claudia', apellido='Heredia', cedula='11111111', fechaIngreso=2024-05-10, domicilio=Domicilio{calle='Siempre viva', numero=742, localidad='Springfield', provincia='USA'}, email=clau@gmail.com}, 
+ Paciente{nombre='Luciana', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=Domicilio{calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email=luciani@gmail.com}, 
+ Paciente{nombre='Luciana', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=Domicilio{calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email=luciani@gmail.com}, 
+ Paciente{nombre='Luciana', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=Domicilio{calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email=luciani@gmail.com}, 
+ Paciente{nombre='Luciana', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=Domicilio{calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email=luciani@gmail.com}]
+[2024-06-24 16:48:25] [ INFO ] [PacienteDAOH2:56] iniciando la busqueda de un paciente por id: 3
+[2024-06-24 16:48:25] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-24 16:48:25] [ INFO ] [PacienteDAOH2:70] Paciente encontrado: 
+ Paciente{nombre='Luciana', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=Domicilio{calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email=luciani@gmail.com}
+[2024-06-24 16:48:25] [ INFO ] [PacienteDAOH2:79] Iniciando la actualizacion de paciente: Luciana con id: 3
+[2024-06-24 16:48:25] [ INFO ] [DomicilioDaoH2:72] Iniciando la operacion de actualizar un domicilio
+[2024-06-24 16:48:25] [ INFO ] [PacienteDAOH2:94] Paciente actualizado con exito
+[2024-06-24 16:48:33] [ INFO ] [PacienteDAOH2:56] iniciando la busqueda de un paciente por id: 3
+[2024-06-24 16:48:33] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-24 16:48:33] [ INFO ] [PacienteDAOH2:70] Paciente encontrado: 
+ Paciente{nombre='Luciana', apellido='Corrales', cedula='11111', fechaIngreso=2024-05-12, domicilio=Domicilio{calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email=luciani@gmail.com}
+[2024-06-24 16:48:56] [ INFO ] [PacienteDAOH2:56] iniciando la busqueda de un paciente por id: 3
+[2024-06-24 16:48:56] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-24 16:48:56] [ INFO ] [PacienteDAOH2:70] Paciente encontrado: 
+ Paciente{nombre='Luciana', apellido='Corrales', cedula='11111', fechaIngreso=2024-05-12, domicilio=Domicilio{calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email=luciani@gmail.com}
+[2024-06-24 16:48:56] [ INFO ] [PacienteDAOH2:103] Iniciando la eliminación del paciente con ID: 3
+[2024-06-24 16:48:56] [ INFO ] [PacienteDAOH2:110] Paciente eliminado con exito con ID: 3
+[2024-06-24 16:49:14] [ INFO ] [PacienteDAOH2:56] iniciando la busqueda de un paciente por id: 3
+[2024-06-24 16:49:14] [ INFO ] [PacienteDAOH2:70] Paciente encontrado: null
+[2024-06-24 16:49:19] [ INFO ] [PacienteDAOH2:118] Iniciando la busqueda de todos los pacientes
+[2024-06-24 16:49:19] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-24 16:49:19] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-24 16:49:19] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-24 16:49:19] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-24 16:49:19] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-24 16:49:19] [ INFO ] [PacienteDAOH2:134] [
+ Paciente{nombre='Jorgito', apellido='Pereyra', cedula='123456', fechaIngreso=2024-05-15, domicilio=Domicilio{calle='Siempre viva', numero=742, localidad='Springfield', provincia='USA'}, email=jorgito@gmail.com}, 
+ Paciente{nombre='Claudia', apellido='Heredia', cedula='11111111', fechaIngreso=2024-05-10, domicilio=Domicilio{calle='Siempre viva', numero=742, localidad='Springfield', provincia='USA'}, email=clau@gmail.com}, 
+ Paciente{nombre='Luciana', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=Domicilio{calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email=luciani@gmail.com}, 
+ Paciente{nombre='Luciana', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=Domicilio{calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email=luciani@gmail.com}, 
+ Paciente{nombre='Luciana', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=Domicilio{calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email=luciani@gmail.com}]
+[2024-06-24 16:49:57] [ INFO ] [PacienteDAOH2:56] iniciando la busqueda de un paciente por id: 3
+[2024-06-24 16:49:57] [ INFO ] [PacienteDAOH2:70] Paciente encontrado: null
+[2024-06-24 16:55:10] [ INFO ] [PacienteDAOH2:143] Iniciando las operaciones de busqueda: clau@gmail.com
+[2024-06-24 16:55:10] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-24 21:10:31] [ INFO ] [BD:38] tabla creada con exito
+[2024-06-24 21:16:48] [ INFO ] [BD:38] tabla creada con exito
+[2024-06-24 21:16:57] [ INFO ] [PacienteDAOH2:62] iniciando la busqueda de un paciente por id: 2
+[2024-06-24 21:16:57] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-24 21:16:57] [ INFO ] [PacienteDAOH2:76] Paciente encontrado: 
+ Paciente{nombre='Claudia', apellido='Heredia', cedula='11111111', fechaIngreso=2024-05-10, domicilio=Domicilio{calle='Siempre viva', numero=742, localidad='Springfield', provincia='USA'}, email=clau@gmail.com}
+[2024-06-24 21:16:57] [ INFO ] [OdontologoDAOH2:49] iniciando la busqueda de un odontologo por id: 1
+[2024-06-24 21:16:57] [ INFO ] [PacienteDAOH2:62] iniciando la busqueda de un paciente por id: 2
+[2024-06-24 21:16:57] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-24 21:16:57] [ INFO ] [PacienteDAOH2:76] Paciente encontrado: 
+ Paciente{nombre='Claudia', apellido='Heredia', cedula='11111111', fechaIngreso=2024-05-10, domicilio=Domicilio{calle='Siempre viva', numero=742, localidad='Springfield', provincia='USA'}, email=clau@gmail.com}
+[2024-06-24 21:16:57] [ INFO ] [OdontologoDAOH2:49] iniciando la busqueda de un odontologo por id: 1
+[2024-06-24 21:16:57] [ INFO ] [TurnosDaoLista:20] Turno guardado: BackEnd.ClinicaOdontologica.model.Turno@762fac45
+[2024-06-24 21:58:43] [ INFO ] [BD:38] tabla creada con exito
+[2024-06-24 21:58:54] [ INFO ] [BD:38] tabla creada con exito
+[2024-06-24 22:48:28] [ INFO ] [BD:38] tabla creada con exito
+[2024-06-24 23:02:17] [ INFO ] [BD:38] tabla creada con exito
+[2024-06-24 23:11:14] [ INFO ] [BD:38] tabla creada con exito
+[2024-06-24 23:12:09] [ INFO ] [BD:38] tabla creada con exito
+[2024-06-24 23:12:55] [ INFO ] [BD:38] tabla creada con exito
+[2024-06-24 23:14:13] [ INFO ] [BD:38] tabla creada con exito
+[2024-06-24 23:15:30] [ INFO ] [BD:38] tabla creada con exito
+[2024-06-24 23:34:24] [ INFO ] [BD:38] tabla creada con exito
+[2024-06-25 10:35:01] [ INFO ] [BD:38] tabla creada con exito
+[2024-06-25 10:35:22] [ INFO ] [TurnosDaoLista:67] Buscando todos los turnos. Cantidad de turnos: 0
+[2024-06-25 10:44:34] [ INFO ] [BD:38] tabla creada con exito
+[2024-06-25 10:44:41] [ INFO ] [PacienteDAOH2:142] Iniciando la busqueda de todos los pacientes
+[2024-06-25 10:44:42] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-25 10:44:42] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-25 10:44:42] [ INFO ] [PacienteDAOH2:158] [
+ Paciente{nombre='Jorgito', apellido='Pereyra', cedula='123456', fechaIngreso=2024-05-15, domicilio=Domicilio{calle='Siempre viva', numero=742, localidad='Springfield', provincia='USA'}, email=jorgito@gmail.com}, 
+ Paciente{nombre='Claudia', apellido='Heredia', cedula='11111111', fechaIngreso=2024-05-10, domicilio=Domicilio{calle='Siempre viva', numero=742, localidad='Springfield', provincia='USA'}, email=clau@gmail.com}]
+[2024-06-25 10:44:47] [ INFO ] [OdontologoDAOH2:119] inicando la operacion de buscar odontologos
+[2024-06-25 10:44:47] [ INFO ] [OdontologoDAOH2:132] Lista de odontólogos obtenida: [
+Odontologo{numeroMatricula=8744PD, nombre='SUSANA', apellido='RAMIREZ'}, 
+Odontologo{numeroMatricula=8745L, nombre='ARMANDO', apellido='CASAS'}]
+[2024-06-25 10:44:51] [ INFO ] [TurnosDaoLista:67] Buscando todos los turnos. Cantidad de turnos: 0
+[2024-06-25 10:44:53] [ INFO ] [OdontologoDAOH2:119] inicando la operacion de buscar odontologos
+[2024-06-25 10:44:53] [ INFO ] [OdontologoDAOH2:132] Lista de odontólogos obtenida: [
+Odontologo{numeroMatricula=8744PD, nombre='SUSANA', apellido='RAMIREZ'}, 
+Odontologo{numeroMatricula=8745L, nombre='ARMANDO', apellido='CASAS'}]
+[2024-06-25 10:44:54] [ INFO ] [PacienteDAOH2:142] Iniciando la busqueda de todos los pacientes
+[2024-06-25 10:44:54] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-25 10:44:54] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-25 10:44:54] [ INFO ] [PacienteDAOH2:158] [
+ Paciente{nombre='Jorgito', apellido='Pereyra', cedula='123456', fechaIngreso=2024-05-15, domicilio=Domicilio{calle='Siempre viva', numero=742, localidad='Springfield', provincia='USA'}, email=jorgito@gmail.com}, 
+ Paciente{nombre='Claudia', apellido='Heredia', cedula='11111111', fechaIngreso=2024-05-10, domicilio=Domicilio{calle='Siempre viva', numero=742, localidad='Springfield', provincia='USA'}, email=clau@gmail.com}]
+[2024-06-25 10:45:28] [ INFO ] [PacienteDAOH2:28] inicando la operacion de guardado de paciente
+[2024-06-25 10:45:28] [ INFO ] [DomicilioDaoH2:29] Iniciando la operacion de guardado de domicilo
+[2024-06-25 10:45:28] [ INFO ] [DomicilioDaoH2:43] Domicilio guardado con exito
+[2024-06-25 10:45:28] [ INFO ] [PacienteDAOH2:46] Paciente guardado con exito: 
+ Paciente{nombre='laura', apellido='sosa', cedula='2323', fechaIngreso=2024-06-05, domicilio=Domicilio{calle='Wallaci', numero=24, localidad='Cali', provincia='Colombia'}, email=sosita@gmail.com}
+[2024-06-25 10:45:34] [ INFO ] [PacienteDAOH2:142] Iniciando la busqueda de todos los pacientes
+[2024-06-25 10:45:34] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-25 10:45:34] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-25 10:45:34] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-25 10:45:34] [ INFO ] [PacienteDAOH2:158] [
+ Paciente{nombre='Jorgito', apellido='Pereyra', cedula='123456', fechaIngreso=2024-05-15, domicilio=Domicilio{calle='Siempre viva', numero=742, localidad='Springfield', provincia='USA'}, email=jorgito@gmail.com}, 
+ Paciente{nombre='Claudia', apellido='Heredia', cedula='11111111', fechaIngreso=2024-05-10, domicilio=Domicilio{calle='Siempre viva', numero=742, localidad='Springfield', provincia='USA'}, email=clau@gmail.com}, 
+ Paciente{nombre='laura', apellido='sosa', cedula='2323', fechaIngreso=2024-06-05, domicilio=Domicilio{calle='Wallaci', numero=24, localidad='Cali', provincia='Colombia'}, email=sosita@gmail.com}]
+[2024-06-25 10:45:40] [ INFO ] [OdontologoDAOH2:119] inicando la operacion de buscar odontologos
+[2024-06-25 10:45:40] [ INFO ] [OdontologoDAOH2:132] Lista de odontólogos obtenida: [
+Odontologo{numeroMatricula=8744PD, nombre='SUSANA', apellido='RAMIREZ'}, 
+Odontologo{numeroMatricula=8745L, nombre='ARMANDO', apellido='CASAS'}]
+[2024-06-25 10:45:59] [ INFO ] [OdontologoDAOH2:20] inicando la operacion de guardado de odontologo
+[2024-06-25 10:45:59] [ INFO ] [OdontologoDAOH2:33] Odontólogo guardado: 
+Odontologo{numeroMatricula=564641, nombre='Wallas ', apellido='Smith'}
+[2024-06-25 10:46:03] [ INFO ] [OdontologoDAOH2:119] inicando la operacion de buscar odontologos
+[2024-06-25 10:46:03] [ INFO ] [OdontologoDAOH2:132] Lista de odontólogos obtenida: [
+Odontologo{numeroMatricula=8744PD, nombre='SUSANA', apellido='RAMIREZ'}, 
+Odontologo{numeroMatricula=8745L, nombre='ARMANDO', apellido='CASAS'}, 
+Odontologo{numeroMatricula=564641, nombre='Wallas ', apellido='Smith'}]
+[2024-06-25 10:47:28] [ INFO ] [BD:38] tabla creada con exito
+[2024-06-25 10:47:36] [ INFO ] [PacienteDAOH2:142] Iniciando la busqueda de todos los pacientes
+[2024-06-25 10:47:36] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-25 10:47:36] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-25 10:47:36] [ INFO ] [PacienteDAOH2:158] [
+ Paciente{nombre='Jorgito', apellido='Pereyra', cedula='123456', fechaIngreso=2024-05-15, domicilio=Domicilio{calle='Siempre viva', numero=742, localidad='Springfield', provincia='USA'}, email=jorgito@gmail.com}, 
+ Paciente{nombre='Claudia', apellido='Heredia', cedula='11111111', fechaIngreso=2024-05-10, domicilio=Domicilio{calle='Siempre viva', numero=742, localidad='Springfield', provincia='USA'}, email=clau@gmail.com}]
+[2024-06-25 10:47:39] [ INFO ] [OdontologoDAOH2:119] inicando la operacion de buscar odontologos
+[2024-06-25 10:47:39] [ INFO ] [OdontologoDAOH2:132] Lista de odontólogos obtenida: [
+Odontologo{numeroMatricula=8744PD, nombre='SUSANA', apellido='RAMIREZ'}, 
+Odontologo{numeroMatricula=8745L, nombre='ARMANDO', apellido='CASAS'}]
+[2024-06-25 11:18:34] [ INFO ] [BD:38] tabla creada con exito
+[2024-06-25 11:18:48] [ INFO ] [OdontologoDAOH2:119] inicando la operacion de buscar odontologos
+[2024-06-25 11:18:49] [ INFO ] [OdontologoDAOH2:132] Lista de odontólogos obtenida: [
+Odontologo{numeroMatricula=8744PD, nombre='SUSANA', apellido='RAMIREZ'}, 
+Odontologo{numeroMatricula=8745L, nombre='ARMANDO', apellido='CASAS'}]
+[2024-06-25 11:18:49] [ INFO ] [OdontologoDAOH2:119] inicando la operacion de buscar odontologos
+[2024-06-25 11:18:49] [ INFO ] [OdontologoDAOH2:132] Lista de odontólogos obtenida: [
+Odontologo{numeroMatricula=8744PD, nombre='SUSANA', apellido='RAMIREZ'}, 
+Odontologo{numeroMatricula=8745L, nombre='ARMANDO', apellido='CASAS'}]
+[2024-06-25 11:21:49] [ INFO ] [OdontologoDAOH2:119] inicando la operacion de buscar odontologos
+[2024-06-25 11:21:49] [ INFO ] [OdontologoDAOH2:132] Lista de odontólogos obtenida: [
+Odontologo{numeroMatricula=8744PD, nombre='SUSANA', apellido='RAMIREZ'}, 
+Odontologo{numeroMatricula=8745L, nombre='ARMANDO', apellido='CASAS'}]
+[2024-06-25 11:21:49] [ INFO ] [OdontologoDAOH2:119] inicando la operacion de buscar odontologos
+[2024-06-25 11:21:49] [ INFO ] [OdontologoDAOH2:132] Lista de odontólogos obtenida: [
+Odontologo{numeroMatricula=8744PD, nombre='SUSANA', apellido='RAMIREZ'}, 
+Odontologo{numeroMatricula=8745L, nombre='ARMANDO', apellido='CASAS'}]
+[2024-06-25 11:21:49] [ INFO ] [OdontologoDAOH2:119] inicando la operacion de buscar odontologos
+[2024-06-25 11:21:50] [ INFO ] [OdontologoDAOH2:132] Lista de odontólogos obtenida: [
+Odontologo{numeroMatricula=8744PD, nombre='SUSANA', apellido='RAMIREZ'}, 
+Odontologo{numeroMatricula=8745L, nombre='ARMANDO', apellido='CASAS'}]
+[2024-06-25 11:22:06] [ INFO ] [BD:38] tabla creada con exito
+[2024-06-25 11:22:25] [ INFO ] [OdontologoDAOH2:119] inicando la operacion de buscar odontologos
+[2024-06-25 11:22:25] [ INFO ] [OdontologoDAOH2:132] Lista de odontólogos obtenida: [
+Odontologo{numeroMatricula=8744PD, nombre='SUSANA', apellido='RAMIREZ'}, 
+Odontologo{numeroMatricula=8745L, nombre='ARMANDO', apellido='CASAS'}]
+[2024-06-25 11:22:27] [ INFO ] [OdontologoDAOH2:119] inicando la operacion de buscar odontologos
+[2024-06-25 11:22:27] [ INFO ] [OdontologoDAOH2:132] Lista de odontólogos obtenida: [
+Odontologo{numeroMatricula=8744PD, nombre='SUSANA', apellido='RAMIREZ'}, 
+Odontologo{numeroMatricula=8745L, nombre='ARMANDO', apellido='CASAS'}]
+[2024-06-25 11:22:27] [ INFO ] [OdontologoDAOH2:119] inicando la operacion de buscar odontologos
+[2024-06-25 11:22:27] [ INFO ] [OdontologoDAOH2:132] Lista de odontólogos obtenida: [
+Odontologo{numeroMatricula=8744PD, nombre='SUSANA', apellido='RAMIREZ'}, 
+Odontologo{numeroMatricula=8745L, nombre='ARMANDO', apellido='CASAS'}]
+[2024-06-25 11:22:27] [ INFO ] [OdontologoDAOH2:119] inicando la operacion de buscar odontologos
+[2024-06-25 11:22:27] [ INFO ] [OdontologoDAOH2:132] Lista de odontólogos obtenida: [
+Odontologo{numeroMatricula=8744PD, nombre='SUSANA', apellido='RAMIREZ'}, 
+Odontologo{numeroMatricula=8745L, nombre='ARMANDO', apellido='CASAS'}]
+[2024-06-25 15:54:16] [ INFO ] [PacienteDAOH2:28] inicando la operacion de guardado de paciente
+[2024-06-25 15:54:16] [ INFO ] [DomicilioDaoH2:29] Iniciando la operacion de guardado de domicilo
+[2024-06-25 15:54:16] [ INFO ] [DomicilioDaoH2:43] Domicilio guardado con exito
+[2024-06-25 15:54:16] [ INFO ] [PacienteDAOH2:46] Paciente guardado con exito: 
+ Paciente{nombre='Luciana', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=Domicilio{calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email=luciani@gmail.com}
+[2024-06-25 15:54:21] [ INFO ] [PacienteDAOH2:142] Iniciando la busqueda de todos los pacientes
+[2024-06-25 15:54:21] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-25 15:54:21] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-25 15:54:21] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-25 15:54:21] [ INFO ] [PacienteDAOH2:158] [
+ Paciente{nombre='Jorgito', apellido='Pereyra', cedula='123456', fechaIngreso=2024-05-15, domicilio=Domicilio{calle='Siempre viva', numero=742, localidad='Springfield', provincia='USA'}, email=jorgito@gmail.com}, 
+ Paciente{nombre='Claudia', apellido='Heredia', cedula='11111111', fechaIngreso=2024-05-10, domicilio=Domicilio{calle='Siempre viva', numero=742, localidad='Springfield', provincia='USA'}, email=clau@gmail.com}, 
+ Paciente{nombre='Luciana', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=Domicilio{calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email=luciani@gmail.com}]
+[2024-06-25 15:54:26] [ INFO ] [PacienteDAOH2:28] inicando la operacion de guardado de paciente
+[2024-06-25 15:54:26] [ INFO ] [DomicilioDaoH2:29] Iniciando la operacion de guardado de domicilo
+[2024-06-25 15:54:26] [ INFO ] [DomicilioDaoH2:43] Domicilio guardado con exito
+[2024-06-25 15:54:26] [ INFO ] [PacienteDAOH2:46] Paciente guardado con exito: 
+ Paciente{nombre='Luciana', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=Domicilio{calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email=luciani@gmail.com}
+[2024-06-25 15:54:28] [ INFO ] [PacienteDAOH2:142] Iniciando la busqueda de todos los pacientes
+[2024-06-25 15:54:28] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-25 15:54:28] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-25 15:54:28] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-25 15:54:28] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-25 15:54:28] [ INFO ] [PacienteDAOH2:158] [
+ Paciente{nombre='Jorgito', apellido='Pereyra', cedula='123456', fechaIngreso=2024-05-15, domicilio=Domicilio{calle='Siempre viva', numero=742, localidad='Springfield', provincia='USA'}, email=jorgito@gmail.com}, 
+ Paciente{nombre='Claudia', apellido='Heredia', cedula='11111111', fechaIngreso=2024-05-10, domicilio=Domicilio{calle='Siempre viva', numero=742, localidad='Springfield', provincia='USA'}, email=clau@gmail.com}, 
+ Paciente{nombre='Luciana', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=Domicilio{calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email=luciani@gmail.com}, 
+ Paciente{nombre='Luciana', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=Domicilio{calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email=luciani@gmail.com}]
+[2024-06-25 15:54:37] [ INFO ] [PacienteDAOH2:62] iniciando la busqueda de un paciente por id: 3
+[2024-06-25 15:54:37] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-25 15:54:37] [ INFO ] [PacienteDAOH2:76] Paciente encontrado: 
+ Paciente{nombre='Luciana', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=Domicilio{calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email=luciani@gmail.com}
+[2024-06-25 15:54:37] [ INFO ] [PacienteDAOH2:91] Iniciando la actualizacion de paciente: Luciana con id: 3
+[2024-06-25 15:54:37] [ INFO ] [DomicilioDaoH2:72] Iniciando la operacion de actualizar un domicilio
+[2024-06-25 15:54:37] [ INFO ] [PacienteDAOH2:106] Paciente actualizado con exito
+[2024-06-25 15:54:40] [ INFO ] [PacienteDAOH2:142] Iniciando la busqueda de todos los pacientes
+[2024-06-25 15:54:40] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-25 15:54:40] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-25 15:54:40] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-25 15:54:40] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-25 15:54:40] [ INFO ] [PacienteDAOH2:158] [
+ Paciente{nombre='Jorgito', apellido='Pereyra', cedula='123456', fechaIngreso=2024-05-15, domicilio=Domicilio{calle='Siempre viva', numero=742, localidad='Springfield', provincia='USA'}, email=jorgito@gmail.com}, 
+ Paciente{nombre='Claudia', apellido='Heredia', cedula='11111111', fechaIngreso=2024-05-10, domicilio=Domicilio{calle='Siempre viva', numero=742, localidad='Springfield', provincia='USA'}, email=clau@gmail.com}, 
+ Paciente{nombre='Luciana', apellido='Corrales', cedula='11111', fechaIngreso=2024-05-12, domicilio=Domicilio{calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email=luciani@gmail.com}, 
+ Paciente{nombre='Luciana', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=Domicilio{calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email=luciani@gmail.com}]
+[2024-06-25 15:55:20] [ INFO ] [PacienteDAOH2:142] Iniciando la busqueda de todos los pacientes
+[2024-06-25 15:55:20] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-25 15:55:20] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-25 15:55:20] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-25 15:55:20] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-25 15:55:20] [ INFO ] [PacienteDAOH2:158] [
+ Paciente{nombre='Jorgito', apellido='Pereyra', cedula='123456', fechaIngreso=2024-05-15, domicilio=Domicilio{calle='Siempre viva', numero=742, localidad='Springfield', provincia='USA'}, email=jorgito@gmail.com}, 
+ Paciente{nombre='Claudia', apellido='Heredia', cedula='11111111', fechaIngreso=2024-05-10, domicilio=Domicilio{calle='Siempre viva', numero=742, localidad='Springfield', provincia='USA'}, email=clau@gmail.com}, 
+ Paciente{nombre='Luciana', apellido='Corrales', cedula='11111', fechaIngreso=2024-05-12, domicilio=Domicilio{calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email=luciani@gmail.com}, 
+ Paciente{nombre='Luciana', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=Domicilio{calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email=luciani@gmail.com}]
+[2024-06-25 15:55:26] [ INFO ] [PacienteDAOH2:62] iniciando la busqueda de un paciente por id: 3
+[2024-06-25 15:55:26] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-25 15:55:26] [ INFO ] [PacienteDAOH2:76] Paciente encontrado: 
+ Paciente{nombre='Luciana', apellido='Corrales', cedula='11111', fechaIngreso=2024-05-12, domicilio=Domicilio{calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email=luciani@gmail.com}
+[2024-06-25 15:55:45] [ INFO ] [OdontologoDAOH2:119] inicando la operacion de buscar odontologos
+[2024-06-25 15:55:45] [ INFO ] [OdontologoDAOH2:132] Lista de odontólogos obtenida: [
+Odontologo{numeroMatricula=8744PD, nombre='SUSANA', apellido='RAMIREZ'}, 
+Odontologo{numeroMatricula=8745L, nombre='ARMANDO', apellido='CASAS'}]
+[2024-06-25 15:56:14] [ INFO ] [PacienteDAOH2:62] iniciando la busqueda de un paciente por id: 3
+[2024-06-25 15:56:14] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-25 15:56:14] [ INFO ] [PacienteDAOH2:76] Paciente encontrado: 
+ Paciente{nombre='Luciana', apellido='Corrales', cedula='11111', fechaIngreso=2024-05-12, domicilio=Domicilio{calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email=luciani@gmail.com}
+[2024-06-25 15:56:14] [ INFO ] [PacienteDAOH2:121] Iniciando la eliminación del paciente con ID: 3
+[2024-06-25 15:56:14] [ INFO ] [PacienteDAOH2:128] Paciente eliminado con exito con ID: 3
+[2024-06-25 15:56:38] [ INFO ] [PacienteDAOH2:142] Iniciando la busqueda de todos los pacientes
+[2024-06-25 15:56:38] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-25 15:56:38] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-25 15:56:38] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-25 15:56:38] [ INFO ] [PacienteDAOH2:158] [
+ Paciente{nombre='Jorgito', apellido='Pereyra', cedula='123456', fechaIngreso=2024-05-15, domicilio=Domicilio{calle='Siempre viva', numero=742, localidad='Springfield', provincia='USA'}, email=jorgito@gmail.com}, 
+ Paciente{nombre='Claudia', apellido='Heredia', cedula='11111111', fechaIngreso=2024-05-10, domicilio=Domicilio{calle='Siempre viva', numero=742, localidad='Springfield', provincia='USA'}, email=clau@gmail.com}, 
+ Paciente{nombre='Luciana', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=Domicilio{calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email=luciani@gmail.com}]
+[2024-06-25 15:56:46] [ INFO ] [PacienteDAOH2:173] Iniciando las operaciones de busqueda: clau@gmail.com
+[2024-06-25 15:56:46] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-25 15:57:04] [ INFO ] [OdontologoDAOH2:20] inicando la operacion de guardado de odontologo
+[2024-06-25 15:57:04] [ INFO ] [OdontologoDAOH2:33] Odontólogo guardado: 
+Odontologo{numeroMatricula=81223113, nombre='Ramon', apellido='RGonzales'}
+[2024-06-25 15:57:10] [ INFO ] [OdontologoDAOH2:119] inicando la operacion de buscar odontologos
+[2024-06-25 15:57:10] [ INFO ] [OdontologoDAOH2:132] Lista de odontólogos obtenida: [
+Odontologo{numeroMatricula=8744PD, nombre='SUSANA', apellido='RAMIREZ'}, 
+Odontologo{numeroMatricula=8745L, nombre='ARMANDO', apellido='CASAS'}, 
+Odontologo{numeroMatricula=81223113, nombre='Ramon', apellido='RGonzales'}]
+[2024-06-25 15:57:21] [ INFO ] [OdontologoDAOH2:49] iniciando la busqueda de un odontologo por id: 1
+[2024-06-25 15:57:21] [ INFO ] [OdontologoDAOH2:74] Iniciando la operación de actualizar un odontólogo con ID: 1
+[2024-06-25 15:57:21] [ INFO ] [OdontologoDAOH2:84] Odontólogo actualizado con éxito
+[2024-06-25 15:57:25] [ INFO ] [OdontologoDAOH2:119] inicando la operacion de buscar odontologos
+[2024-06-25 15:57:25] [ INFO ] [OdontologoDAOH2:132] Lista de odontólogos obtenida: [
+Odontologo{numeroMatricula=8744PD, nombre='Susy', apellido='Ramirez'}, 
+Odontologo{numeroMatricula=8745L, nombre='ARMANDO', apellido='CASAS'}, 
+Odontologo{numeroMatricula=81223113, nombre='Ramon', apellido='RGonzales'}]
+[2024-06-25 15:57:35] [ INFO ] [OdontologoDAOH2:49] iniciando la busqueda de un odontologo por id: 1
+[2024-06-25 15:57:53] [ INFO ] [OdontologoDAOH2:98] Iniciando la eliminación del odontólogo con ID: 2
+[2024-06-25 15:57:53] [ INFO ] [OdontologoDAOH2:105] Odontólogo eliminado con ID: 2
+[2024-06-25 15:57:56] [ INFO ] [OdontologoDAOH2:119] inicando la operacion de buscar odontologos
+[2024-06-25 15:57:56] [ INFO ] [OdontologoDAOH2:132] Lista de odontólogos obtenida: [
+Odontologo{numeroMatricula=8744PD, nombre='Susy', apellido='Ramirez'}, 
+Odontologo{numeroMatricula=81223113, nombre='Ramon', apellido='RGonzales'}]
+[2024-06-25 15:58:19] [ INFO ] [PacienteDAOH2:62] iniciando la busqueda de un paciente por id: 3
+[2024-06-25 15:58:19] [ INFO ] [PacienteDAOH2:76] Paciente encontrado: null
+[2024-06-25 15:58:37] [ INFO ] [PacienteDAOH2:62] iniciando la busqueda de un paciente por id: 2
+[2024-06-25 15:58:37] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-25 15:58:37] [ INFO ] [PacienteDAOH2:76] Paciente encontrado: 
+ Paciente{nombre='Claudia', apellido='Heredia', cedula='11111111', fechaIngreso=2024-05-10, domicilio=Domicilio{calle='Siempre viva', numero=742, localidad='Springfield', provincia='USA'}, email=clau@gmail.com}
+[2024-06-25 15:58:37] [ INFO ] [OdontologoDAOH2:49] iniciando la busqueda de un odontologo por id: 1
+[2024-06-25 15:58:37] [ INFO ] [PacienteDAOH2:62] iniciando la busqueda de un paciente por id: 2
+[2024-06-25 15:58:37] [ INFO ] [DomicilioDaoH2:52] Iniciando la operacion de busqueda de domicilo
+[2024-06-25 15:58:37] [ INFO ] [PacienteDAOH2:76] Paciente encontrado: 
+ Paciente{nombre='Claudia', apellido='Heredia', cedula='11111111', fechaIngreso=2024-05-10, domicilio=Domicilio{calle='Siempre viva', numero=742, localidad='Springfield', provincia='USA'}, email=clau@gmail.com}
+[2024-06-25 15:58:37] [ INFO ] [OdontologoDAOH2:49] iniciando la busqueda de un odontologo por id: 1
+[2024-06-25 15:58:37] [ INFO ] [TurnosDaoLista:20] Turno guardado: BackEnd.ClinicaOdontologica.model.Turno@64033e87
+[2024-06-25 16:01:43] [ INFO ] [TurnosDaoLista:67] Buscando todos los turnos. Cantidad de turnos: 1
+[2024-06-26 15:15:28] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-26 15:15:30] [ INFO ] [OdontologoService:54] Buscando todos los odontologos
+[2024-06-26 15:15:32] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-26 15:15:34] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-26 15:17:03] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-26 15:17:04] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-26 15:17:32] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-26 15:18:01] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='bf', apellido='dfgfd', cedula='23323', fechaIngreso=2024-06-12, domicilio=
+ Domicilio{id=null, calle='cvbvcb', numero=3, localidad='Cali', provincia='Colombia'}, email='a@a.com'}
+[2024-06-26 15:18:17] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='ari', apellido='sosa', cedula='2323', fechaIngreso=2024-06-15, domicilio=
+ Domicilio{id=null, calle='Wallaci', numero=24, localidad='Cali', provincia='Colombia'}, email='s@hotmail.com'}
+[2024-06-26 15:18:20] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-26 15:18:38] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-26 15:39:53] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-26 15:40:11] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='aa', apellido='sosa', cedula='2323', fechaIngreso=2024-06-03, domicilio=
+ Domicilio{id=null, calle='Wallaci', numero=24, localidad='Cali', provincia='Colombia'}, email='a@a.com'}
+[2024-06-26 15:40:24] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='ari', apellido='Smith', cedula='23323', fechaIngreso=2024-06-06, domicilio=
+ Domicilio{id=null, calle='Wallaci', numero=3, localidad='Cali', provincia='Colombia'}, email='s@hotmail.com'}
+[2024-06-26 15:40:27] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-26 15:46:15] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='aa', apellido='sosa', cedula='2323', fechaIngreso=2024-06-20, domicilio=
+ Domicilio{id=null, calle='Wallaci', numero=3, localidad='Cali', provincia='Colombia'}, email='a@a.com'}
+[2024-06-26 15:46:32] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='ari', apellido='Smith', cedula='23323', fechaIngreso=2024-06-15, domicilio=
+ Domicilio{id=null, calle='cvbvcb', numero=24, localidad='Cali', provincia='Colombia'}, email='a@a.com'}
+[2024-06-26 15:46:34] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-26 15:46:52] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='ari', apellido='Smith', cedula='23323', fechaIngreso=2024-06-13, domicilio=
+ Domicilio{id=null, calle='Wallaci', numero=3, localidad='Cali', provincia='Colombia'}, email='s@hotmail.com'}
+[2024-06-26 15:46:54] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-26 15:47:00] [ INFO ] [OdontologoService:20] Guardando un nuevo odontologo: 
+Odontologo{id=null, matricula='564641', nombre='ari', apellido='sosa'}
+[2024-06-26 15:47:11] [ INFO ] [OdontologoService:20] Guardando un nuevo odontologo: 
+Odontologo{id=null, matricula='564641435', nombre='Historia1', apellido='dfgfd'}
+[2024-06-26 15:47:12] [ INFO ] [OdontologoService:54] Buscando todos los odontologos
+[2024-06-26 15:47:18] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-26 15:47:19] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-26 15:47:19] [ INFO ] [OdontologoService:54] Buscando todos los odontologos
+[2024-06-26 15:47:34] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-26 15:47:36] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-26 15:47:36] [ INFO ] [OdontologoService:54] Buscando todos los odontologos
+[2024-06-26 15:47:50] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-26 15:54:28] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='ari', apellido='sosa', cedula='2323', fechaIngreso=2024-06-01, domicilio=
+ Domicilio{id=null, calle='cvbvcb', numero=3, localidad='Cali', provincia='Colombia'}, email='danus-97@hotmail.com'}
+[2024-06-26 15:54:46] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='Daniela', apellido='Smith', cedula='2323', fechaIngreso=2024-06-07, domicilio=
+ Domicilio{id=null, calle='Wallaci', numero=24, localidad='Cali', provincia='Colombia'}, email='a@a.com'}
+[2024-06-26 15:54:49] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-26 15:54:59] [ INFO ] [OdontologoService:20] Guardando un nuevo odontologo: 
+Odontologo{id=null, matricula='564641', nombre='Historia1', apellido='Smith'}
+[2024-06-26 15:55:11] [ INFO ] [OdontologoService:20] Guardando un nuevo odontologo: 
+Odontologo{id=null, matricula='2344', nombre='Juan', apellido='Perez'}
+[2024-06-26 15:55:12] [ INFO ] [OdontologoService:54] Buscando todos los odontologos
+[2024-06-26 15:55:16] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-26 15:55:16] [ INFO ] [OdontologoService:54] Buscando todos los odontologos
+[2024-06-26 15:57:41] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='ari', apellido='sosa', cedula='2323', fechaIngreso=2024-06-06, domicilio=
+ Domicilio{id=null, calle='Wallaci', numero=24, localidad='Cali', provincia='Colombia'}, email='danivasquez037@gmail.com'}
+[2024-06-26 15:57:47] [ INFO ] [OdontologoService:20] Guardando un nuevo odontologo: 
+Odontologo{id=null, matricula='564641', nombre='Historia1', apellido='sosa'}
+[2024-06-26 15:57:49] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-26 15:57:49] [ INFO ] [OdontologoService:54] Buscando todos los odontologos
+[2024-06-26 15:58:03] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-26 16:00:28] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-26 16:00:40] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='Luciana', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=null, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='luciani@gmail.com'}
+[2024-06-26 16:00:42] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='Luciana', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=null, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='luciani@gmail.com'}
+[2024-06-26 16:00:50] [ INFO ] [OdontologoService:20] Guardando un nuevo odontologo: 
+Odontologo{id=null, matricula='81223113', nombre='Ramon', apellido='RGonzales'}
+[2024-06-26 16:01:04] [ INFO ] [OdontologoService:54] Buscando todos los odontologos
+[2024-06-26 16:01:12] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 2
+[2024-06-26 16:05:53] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='Luciana', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=null, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='luciani@gmail.com'}
+[2024-06-26 16:05:58] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-26 16:06:03] [ INFO ] [OdontologoService:20] Guardando un nuevo odontologo: 
+Odontologo{id=null, matricula='81223113', nombre='Ramon', apellido='RGonzales'}
+[2024-06-26 16:06:15] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='Luciana', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=null, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='lucianit@gmail.com'}
+[2024-06-26 16:06:20] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='Luciana', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=null, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='lucianita@gmail.com'}
+[2024-06-26 16:06:24] [ INFO ] [OdontologoService:20] Guardando un nuevo odontologo: 
+Odontologo{id=null, matricula='81223113', nombre='Ramon', apellido='RGonzales'}
+[2024-06-26 16:06:25] [ INFO ] [OdontologoService:20] Guardando un nuevo odontologo: 
+Odontologo{id=null, matricula='81223113', nombre='Ramon', apellido='RGonzales'}
+[2024-06-26 16:06:31] [ INFO ] [OdontologoService:54] Buscando todos los odontologos
+[2024-06-26 16:06:36] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 2
+[2024-06-26 16:06:36] [ INFO ] [OdontologoService:39] Buscando el odontologo con ID: 1
+[2024-06-26 16:06:36] [ INFO ] [TurnoService:19] Guardando un nuevo turno: 
+Turno{id=null, paciente=
+Paciente{id=2, nombre='null', apellido='null', cedula='null', fechaIngreso=null, domicilio=null, email='null'}, odontologo=
+Odontologo{id=1, matricula='null', nombre='null', apellido='null'}, fecha=2024-05-28}
+[2024-06-26 16:08:30] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-26 16:08:34] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-26 16:08:36] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-26 16:08:36] [ INFO ] [OdontologoService:54] Buscando todos los odontologos
+[2024-06-26 17:37:02] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-26 17:56:23] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='Luciana', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=null, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='lucianita@gmail.com'}
+[2024-06-26 17:56:34] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='Lucia', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=null, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='lucia@gmail.com'}
+[2024-06-26 17:56:43] [ INFO ] [OdontologoService:20] Guardando un nuevo odontologo: 
+Odontologo{id=null, matricula='81223113', nombre='Ramon', apellido='RGonzales'}
+[2024-06-26 17:56:51] [ INFO ] [OdontologoService:20] Guardando un nuevo odontologo: 
+Odontologo{id=null, matricula='81223113', nombre='Ramona', apellido='Gonzales'}
+[2024-06-26 17:56:57] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 2
+[2024-06-26 17:56:57] [ INFO ] [OdontologoService:39] Buscando el odontologo con ID: 1
+[2024-06-26 17:56:57] [ INFO ] [TurnoService:19] Guardando un nuevo turno: 
+Turno{id=null, paciente=
+Paciente{id=2, nombre='null', apellido='null', cedula='null', fechaIngreso=null, domicilio=null, email='null'}, odontologo=
+Odontologo{id=1, matricula='null', nombre='null', apellido='null'}, fecha=2024-05-28}
+[2024-06-26 17:57:00] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-26 17:57:03] [ INFO ] [OdontologoService:54] Buscando todos los odontologos
+[2024-06-26 17:57:08] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-26 17:57:10] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-26 17:57:10] [ INFO ] [OdontologoService:54] Buscando todos los odontologos
+[2024-06-26 17:57:18] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-26 18:06:31] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='Lucia', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=null, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='lucia@gmail.com'}
+[2024-06-26 18:06:40] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='Lucia', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=null, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='luciana@gmail.com'}
+[2024-06-26 18:06:43] [ INFO ] [OdontologoService:20] Guardando un nuevo odontologo: 
+Odontologo{id=null, matricula='81223113', nombre='Ramona', apellido='Gonzales'}
+[2024-06-26 18:06:45] [ INFO ] [OdontologoService:20] Guardando un nuevo odontologo: 
+Odontologo{id=null, matricula='81223113', nombre='Ramona', apellido='Gonzales'}
+[2024-06-26 18:06:48] [ INFO ] [OdontologoService:20] Guardando un nuevo odontologo: 
+Odontologo{id=null, matricula='81223113', nombre='Ramon', apellido='Gonzales'}
+[2024-06-26 18:06:51] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 2
+[2024-06-26 18:06:51] [ INFO ] [OdontologoService:39] Buscando el odontologo con ID: 1
+[2024-06-26 18:06:51] [ INFO ] [TurnoService:19] Guardando un nuevo turno: 
+Turno{id=null, paciente=
+Paciente{id=2, nombre='Lucia', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=2, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='luciana@gmail.com'}, odontologo=
+Odontologo{id=1, matricula='81223113', nombre='Ramona', apellido='Gonzales'}, fecha=2024-05-28}
+[2024-06-26 18:06:58] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-26 18:07:01] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-26 18:07:03] [ INFO ] [OdontologoService:54] Buscando todos los odontologos
+[2024-06-26 18:10:59] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='Lucia', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=null, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='luciana@gmail.com'}
+[2024-06-26 18:11:03] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='Lucia', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=null, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='lucian@gmail.com'}
+[2024-06-26 18:11:06] [ INFO ] [OdontologoService:20] Guardando un nuevo odontologo: 
+Odontologo{id=null, matricula='81223113', nombre='Ramon', apellido='Gonzales'}
+[2024-06-26 18:11:10] [ INFO ] [OdontologoService:20] Guardando un nuevo odontologo: 
+Odontologo{id=null, matricula='81223113', nombre='Ramona', apellido='Gonzales'}
+[2024-06-26 18:11:13] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 2
+[2024-06-26 18:11:13] [ INFO ] [OdontologoService:39] Buscando el odontologo con ID: 1
+[2024-06-26 18:11:13] [ INFO ] [TurnoService:19] Guardando un nuevo turno: 
+Turno{id=null, paciente=
+Paciente{id=2, nombre='Lucia', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=2, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='lucian@gmail.com'}, odontologo=
+Odontologo{id=1, matricula='81223113', nombre='Ramon', apellido='Gonzales'}, fecha=2024-05-28}
+[2024-06-26 18:11:16] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-26 18:11:21] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-26 18:11:23] [ INFO ] [OdontologoService:54] Buscando todos los odontologos
+[2024-06-26 18:11:25] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-26 18:14:28] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-26 18:14:50] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='Lucia', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=null, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='lucian@gmail.com'}
+[2024-06-26 18:14:53] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='Lucia', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=null, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='luciana@gmail.com'}
+[2024-06-26 18:14:57] [ INFO ] [OdontologoService:20] Guardando un nuevo odontologo: 
+Odontologo{id=null, matricula='81223113', nombre='Ramona', apellido='Gonzales'}
+[2024-06-26 18:14:59] [ INFO ] [OdontologoService:20] Guardando un nuevo odontologo: 
+Odontologo{id=null, matricula='81223113', nombre='Ramon', apellido='Gonzales'}
+[2024-06-26 18:15:02] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 2
+[2024-06-26 18:15:02] [ INFO ] [OdontologoService:39] Buscando el odontologo con ID: 1
+[2024-06-26 18:15:02] [ INFO ] [TurnoService:19] Guardando un nuevo turno: 
+Turno{id=null, paciente=
+Paciente{id=2, nombre='Lucia', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=2, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='luciana@gmail.com'}, odontologo=
+Odontologo{id=1, matricula='81223113', nombre='Ramona', apellido='Gonzales'}, fecha=2024-05-28}
+[2024-06-26 18:15:05] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-26 18:15:08] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-26 18:28:38] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-26 18:28:42] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='Lucia', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=null, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='luciana@gmail.com'}
+[2024-06-26 18:28:45] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='Lucia', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=null, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='lucian@gmail.com'}
+[2024-06-26 18:28:48] [ INFO ] [OdontologoService:20] Guardando un nuevo odontologo: 
+Odontologo{id=null, matricula='81223113', nombre='Ramon', apellido='Gonzales'}
+[2024-06-26 18:28:49] [ INFO ] [OdontologoService:20] Guardando un nuevo odontologo: 
+Odontologo{id=null, matricula='81223113', nombre='Ramon', apellido='Gonzales'}
+[2024-06-26 18:28:52] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 2
+[2024-06-26 18:28:52] [ INFO ] [OdontologoService:39] Buscando el odontologo con ID: 1
+[2024-06-26 18:28:52] [ INFO ] [TurnoService:19] Guardando un nuevo turno: 
+Turno{id=null, paciente=
+Paciente{id=2, nombre='Lucia', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=2, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='lucian@gmail.com'}, odontologo=
+Odontologo{id=1, matricula='81223113', nombre='Ramon', apellido='Gonzales'}, fecha=2024-05-28}
+[2024-06-26 18:28:54] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-26 18:28:56] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-26 18:28:58] [ INFO ] [TurnoService:38] Buscando el turno con ID: 1
+[2024-06-26 18:29:10] [ INFO ] [TurnoService:38] Buscando el turno con ID: 1
+[2024-06-26 18:38:29] [ INFO ] [TurnoService:38] Buscando el turno con ID: 1
+[2024-06-26 18:39:52] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='Lucia', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=null, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='lucian@gmail.com'}
+[2024-06-26 18:39:56] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='Lucia', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=null, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='luciana@gmail.com'}
+[2024-06-26 18:39:59] [ INFO ] [OdontologoService:20] Guardando un nuevo odontologo: 
+Odontologo{id=null, matricula='81223113', nombre='Ramon', apellido='Gonzales'}
+[2024-06-26 18:40:01] [ INFO ] [OdontologoService:20] Guardando un nuevo odontologo: 
+Odontologo{id=null, matricula='81223113', nombre='Ramon', apellido='Gonzales'}
+[2024-06-26 18:40:03] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 2
+[2024-06-26 18:40:03] [ INFO ] [OdontologoService:39] Buscando el odontologo con ID: 1
+[2024-06-26 18:40:03] [ INFO ] [TurnoService:19] Guardando un nuevo turno: 
+Turno{id=null, paciente=
+Paciente{id=2, nombre='Lucia', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=2, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='luciana@gmail.com'}, odontologo=
+Odontologo{id=1, matricula='81223113', nombre='Ramon', apellido='Gonzales'}, fecha=2024-05-28}
+[2024-06-26 18:40:06] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-26 18:40:09] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 2
+[2024-06-26 18:40:09] [ INFO ] [OdontologoService:39] Buscando el odontologo con ID: 1
+[2024-06-26 18:40:09] [ INFO ] [TurnoService:19] Guardando un nuevo turno: 
+Turno{id=null, paciente=
+Paciente{id=2, nombre='Lucia', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=2, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='luciana@gmail.com'}, odontologo=
+Odontologo{id=1, matricula='81223113', nombre='Ramon', apellido='Gonzales'}, fecha=2024-05-28}
+[2024-06-26 18:40:12] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-26 18:40:13] [ INFO ] [TurnoService:38] Buscando el turno con ID: 2
+[2024-06-26 18:45:14] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='Lucia', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=null, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='luciana@gmail.com'}
+[2024-06-26 18:45:18] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='Lucia', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=null, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='luciana1@gmail.com'}
+[2024-06-26 18:45:22] [ INFO ] [OdontologoService:20] Guardando un nuevo odontologo: 
+Odontologo{id=null, matricula='81223113', nombre='Ramon', apellido='Gonzales'}
+[2024-06-26 18:45:23] [ INFO ] [OdontologoService:20] Guardando un nuevo odontologo: 
+Odontologo{id=null, matricula='81223113', nombre='Ramon', apellido='Gonzales'}
+[2024-06-26 18:45:28] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 2
+[2024-06-26 18:45:28] [ INFO ] [OdontologoService:39] Buscando el odontologo con ID: 1
+[2024-06-26 18:45:28] [ INFO ] [TurnoService:19] Guardando un nuevo turno: 
+Turno{id=null, paciente=
+Paciente{id=2, nombre='Lucia', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=2, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='luciana1@gmail.com'}, odontologo=
+Odontologo{id=1, matricula='81223113', nombre='Ramon', apellido='Gonzales'}, fecha=2024-05-28}
+[2024-06-26 18:45:29] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 2
+[2024-06-26 18:45:29] [ INFO ] [OdontologoService:39] Buscando el odontologo con ID: 1
+[2024-06-26 18:45:29] [ INFO ] [TurnoService:19] Guardando un nuevo turno: 
+Turno{id=null, paciente=
+Paciente{id=2, nombre='Lucia', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=2, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='luciana1@gmail.com'}, odontologo=
+Odontologo{id=1, matricula='81223113', nombre='Ramon', apellido='Gonzales'}, fecha=2024-05-28}
+[2024-06-26 18:45:31] [ INFO ] [TurnoService:38] Buscando el turno con ID: 1
+[2024-06-26 18:45:33] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-26 18:45:34] [ INFO ] [TurnoService:38] Buscando el turno con ID: 1
+[2024-06-26 18:45:37] [ INFO ] [TurnoService:38] Buscando el turno con ID: 1
+[2024-06-26 18:45:37] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-26 18:48:09] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-26 18:48:15] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='Lucia', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=null, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='luciana1@gmail.com'}
+[2024-06-26 18:48:19] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='Lucia', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=null, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='luciana@gmail.com'}
+[2024-06-26 18:48:21] [ INFO ] [OdontologoService:20] Guardando un nuevo odontologo: 
+Odontologo{id=null, matricula='81223113', nombre='Ramon', apellido='Gonzales'}
+[2024-06-26 18:48:22] [ INFO ] [OdontologoService:20] Guardando un nuevo odontologo: 
+Odontologo{id=null, matricula='81223113', nombre='Ramon', apellido='Gonzales'}
+[2024-06-26 18:48:24] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 2
+[2024-06-26 18:48:24] [ INFO ] [OdontologoService:39] Buscando el odontologo con ID: 1
+[2024-06-26 18:48:24] [ INFO ] [TurnoService:19] Guardando un nuevo turno: 
+Turno{id=null, paciente=
+Paciente{id=2, nombre='Lucia', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=2, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='luciana@gmail.com'}, odontologo=
+Odontologo{id=1, matricula='81223113', nombre='Ramon', apellido='Gonzales'}, fecha=2024-05-28}
+[2024-06-26 18:48:25] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 2
+[2024-06-26 18:48:25] [ INFO ] [OdontologoService:39] Buscando el odontologo con ID: 1
+[2024-06-26 18:48:25] [ INFO ] [TurnoService:19] Guardando un nuevo turno: 
+Turno{id=null, paciente=
+Paciente{id=2, nombre='Lucia', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=2, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='luciana@gmail.com'}, odontologo=
+Odontologo{id=1, matricula='81223113', nombre='Ramon', apellido='Gonzales'}, fecha=2024-05-28}
+[2024-06-26 18:48:28] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-26 18:48:29] [ INFO ] [TurnoService:38] Buscando el turno con ID: 1
+[2024-06-26 18:48:31] [ INFO ] [TurnoService:38] Buscando el turno con ID: 1
+[2024-06-26 18:48:32] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-26 18:52:21] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-26 18:52:24] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='Lucia', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=null, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='luciana@gmail.com'}
+[2024-06-26 18:52:26] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='Lucia', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=null, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='luciana1@gmail.com'}
+[2024-06-26 18:52:29] [ INFO ] [OdontologoService:20] Guardando un nuevo odontologo: 
+Odontologo{id=null, matricula='81223113', nombre='Ramon', apellido='Gonzales'}
+[2024-06-26 18:52:30] [ INFO ] [OdontologoService:20] Guardando un nuevo odontologo: 
+Odontologo{id=null, matricula='81223113', nombre='Ramon', apellido='Gonzales'}
+[2024-06-26 18:52:33] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 2
+[2024-06-26 18:52:33] [ INFO ] [OdontologoService:39] Buscando el odontologo con ID: 1
+[2024-06-26 18:52:33] [ INFO ] [TurnoService:19] Guardando un nuevo turno: 
+Turno{id=null, paciente=
+Paciente{id=2, nombre='Lucia', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=2, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='luciana1@gmail.com'}, odontologo=
+Odontologo{id=1, matricula='81223113', nombre='Ramon', apellido='Gonzales'}, fecha=2024-05-28}
+[2024-06-26 18:52:34] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 2
+[2024-06-26 18:52:34] [ INFO ] [OdontologoService:39] Buscando el odontologo con ID: 1
+[2024-06-26 18:52:34] [ INFO ] [TurnoService:19] Guardando un nuevo turno: 
+Turno{id=null, paciente=
+Paciente{id=2, nombre='Lucia', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=2, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='luciana1@gmail.com'}, odontologo=
+Odontologo{id=1, matricula='81223113', nombre='Ramon', apellido='Gonzales'}, fecha=2024-05-28}
+[2024-06-26 18:52:35] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-26 18:52:37] [ INFO ] [TurnoService:38] Buscando el turno con ID: 1
+[2024-06-26 18:52:39] [ INFO ] [TurnoService:38] Buscando el turno con ID: 1
+[2024-06-26 18:52:39] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-26 19:03:28] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='Lucia', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=null, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='luciana1@gmail.com'}
+[2024-06-26 19:03:31] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='Lucia', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=null, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='luciana@gmail.com'}
+[2024-06-26 19:03:33] [ INFO ] [OdontologoService:20] Guardando un nuevo odontologo: 
+Odontologo{id=null, matricula='81223113', nombre='Ramon', apellido='Gonzales'}
+[2024-06-26 19:03:34] [ INFO ] [OdontologoService:20] Guardando un nuevo odontologo: 
+Odontologo{id=null, matricula='81223113', nombre='Ramon', apellido='Gonzales'}
+[2024-06-26 19:03:36] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 2
+[2024-06-26 19:03:36] [ INFO ] [OdontologoService:39] Buscando el odontologo con ID: 1
+[2024-06-26 19:03:36] [ INFO ] [TurnoService:19] Guardando un nuevo turno: 
+Turno{id=null, paciente=
+Paciente{id=2, nombre='Lucia', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=2, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='luciana@gmail.com'}, odontologo=
+Odontologo{id=1, matricula='81223113', nombre='Ramon', apellido='Gonzales'}, fecha=2024-05-28}
+[2024-06-26 19:03:37] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 2
+[2024-06-26 19:03:37] [ INFO ] [OdontologoService:39] Buscando el odontologo con ID: 1
+[2024-06-26 19:03:37] [ INFO ] [TurnoService:19] Guardando un nuevo turno: 
+Turno{id=null, paciente=
+Paciente{id=2, nombre='Lucia', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=2, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='luciana@gmail.com'}, odontologo=
+Odontologo{id=1, matricula='81223113', nombre='Ramon', apellido='Gonzales'}, fecha=2024-05-28}
+[2024-06-26 19:03:39] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-26 19:03:40] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-26 19:03:43] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-26 19:03:45] [ INFO ] [TurnoService:38] Buscando el turno con ID: 1
+[2024-06-26 19:11:24] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='Lucia', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=null, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='luciana@gmail.com'}
+[2024-06-26 19:11:29] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='Lucia', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=null, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='luciana1@gmail.com'}
+[2024-06-26 19:11:31] [ INFO ] [OdontologoService:20] Guardando un nuevo odontologo: 
+Odontologo{id=null, matricula='81223113', nombre='Ramon', apellido='Gonzales'}
+[2024-06-26 19:11:32] [ INFO ] [OdontologoService:20] Guardando un nuevo odontologo: 
+Odontologo{id=null, matricula='81223113', nombre='Ramon', apellido='Gonzales'}
+[2024-06-26 19:11:35] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 2
+[2024-06-26 19:11:35] [ INFO ] [OdontologoService:39] Buscando el odontologo con ID: 1
+[2024-06-26 19:11:35] [ INFO ] [TurnoService:19] Guardando un nuevo turno: 
+Turno{id=null, paciente=
+Paciente{id=2, nombre='Lucia', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=2, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='luciana1@gmail.com'}, odontologo=
+Odontologo{id=1, matricula='81223113', nombre='Ramon', apellido='Gonzales'}, fecha=2024-05-28}
+[2024-06-26 19:11:51] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 2
+[2024-06-26 19:11:51] [ INFO ] [OdontologoService:39] Buscando el odontologo con ID: 1
+[2024-06-26 19:11:51] [ INFO ] [TurnoService:19] Guardando un nuevo turno: 
+Turno{id=null, paciente=
+Paciente{id=2, nombre='Lucia', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=2, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='luciana1@gmail.com'}, odontologo=
+Odontologo{id=1, matricula='81223113', nombre='Ramon', apellido='Gonzales'}, fecha=2024-05-28}
+[2024-06-26 19:11:54] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-26 19:11:55] [ INFO ] [TurnoService:38] Buscando el turno con ID: 1
+[2024-06-26 19:11:59] [ INFO ] [TurnoService:38] Buscando el turno con ID: 1
+[2024-06-26 19:12:00] [ INFO ] [TurnoService:38] Buscando el turno con ID: 1
+[2024-06-26 19:12:00] [ INFO ] [TurnoService:38] Buscando el turno con ID: 1
+[2024-06-26 19:17:41] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='Lucia', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=null, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='luciana1@gmail.com'}
+[2024-06-26 19:17:45] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='Lucia', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=null, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='luciana@gmail.com'}
+[2024-06-26 19:17:47] [ INFO ] [OdontologoService:20] Guardando un nuevo odontologo: 
+Odontologo{id=null, matricula='81223113', nombre='Ramon', apellido='Gonzales'}
+[2024-06-26 19:17:48] [ INFO ] [OdontologoService:20] Guardando un nuevo odontologo: 
+Odontologo{id=null, matricula='81223113', nombre='Ramon', apellido='Gonzales'}
+[2024-06-26 19:17:51] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 2
+[2024-06-26 19:17:51] [ INFO ] [OdontologoService:39] Buscando el odontologo con ID: 1
+[2024-06-26 19:17:51] [ INFO ] [TurnoService:19] Guardando un nuevo turno: 
+Turno{id=null, paciente=
+Paciente{id=2, nombre='Lucia', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=2, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='luciana1@gmail.com'}, odontologo=
+Odontologo{id=1, matricula='81223113', nombre='Ramon', apellido='Gonzales'}, fecha=2024-05-28}
+[2024-06-26 19:17:52] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 2
+[2024-06-26 19:17:52] [ INFO ] [OdontologoService:39] Buscando el odontologo con ID: 1
+[2024-06-26 19:17:52] [ INFO ] [TurnoService:19] Guardando un nuevo turno: 
+Turno{id=null, paciente=
+Paciente{id=2, nombre='Lucia', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=2, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='luciana1@gmail.com'}, odontologo=
+Odontologo{id=1, matricula='81223113', nombre='Ramon', apellido='Gonzales'}, fecha=2024-05-28}
+[2024-06-26 19:17:55] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-26 19:17:58] [ INFO ] [TurnoService:38] Buscando el turno con ID: 1
+[2024-06-26 19:18:04] [ INFO ] [TurnoService:38] Buscando el turno con ID: 1
+[2024-06-26 19:18:06] [ INFO ] [TurnoService:38] Buscando el turno con ID: 1
+[2024-06-26 19:19:23] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-26 19:19:23] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-26 19:19:23] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-26 19:19:24] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-26 19:19:24] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-26 19:20:28] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-26 19:20:41] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='Lucia', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=null, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='luciana@gmail.com'}
+[2024-06-26 19:20:46] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='Lucia', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=null, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='luciana1@gmail.com'}
+[2024-06-26 19:20:48] [ INFO ] [OdontologoService:20] Guardando un nuevo odontologo: 
+Odontologo{id=null, matricula='81223113', nombre='Ramon', apellido='Gonzales'}
+[2024-06-26 19:20:49] [ INFO ] [OdontologoService:20] Guardando un nuevo odontologo: 
+Odontologo{id=null, matricula='81223113', nombre='Ramon', apellido='Gonzales'}
+[2024-06-26 19:20:55] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 2
+[2024-06-26 19:20:55] [ INFO ] [OdontologoService:39] Buscando el odontologo con ID: 1
+[2024-06-26 19:20:55] [ INFO ] [TurnoService:19] Guardando un nuevo turno: 
+Turno{id=null, paciente=
+Paciente{id=2, nombre='Lucia', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=2, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='luciana1@gmail.com'}, odontologo=
+Odontologo{id=1, matricula='81223113', nombre='Ramon', apellido='Gonzales'}, fecha=2024-05-28}
+[2024-06-26 19:20:56] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 2
+[2024-06-26 19:20:56] [ INFO ] [OdontologoService:39] Buscando el odontologo con ID: 1
+[2024-06-26 19:20:56] [ INFO ] [TurnoService:19] Guardando un nuevo turno: 
+Turno{id=null, paciente=
+Paciente{id=2, nombre='Lucia', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=2, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='luciana1@gmail.com'}, odontologo=
+Odontologo{id=1, matricula='81223113', nombre='Ramon', apellido='Gonzales'}, fecha=2024-05-28}
+[2024-06-26 19:20:58] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-26 19:20:59] [ INFO ] [TurnoService:38] Buscando el turno con ID: 1
+[2024-06-26 19:21:03] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-26 20:15:03] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-26 20:15:39] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-26 20:30:42] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-26 21:02:15] [ INFO ] [OdontologoService:20] Guardando un nuevo odontologo: 
+Odontologo{id=null, matricula='564641', nombre='ari', apellido='sosa'}
+[2024-06-26 21:02:17] [ INFO ] [OdontologoService:54] Buscando todos los odontologos
+[2024-06-26 21:02:33] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='ari', apellido='sosa', cedula='2323', fechaIngreso=2024-06-04, domicilio=
+ Domicilio{id=null, calle='Wallaci', numero=24, localidad='Cali', provincia='Colombia'}, email='danivasquez0310@gmail.com'}
+[2024-06-26 21:08:23] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-26 21:08:26] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-26 21:20:50] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-26 21:20:50] [ INFO ] [OdontologoService:54] Buscando todos los odontologos
+[2024-06-26 21:20:51] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-26 21:21:09] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='ari', apellido='sosa', cedula='2323', fechaIngreso=2024-06-13, domicilio=
+ Domicilio{id=null, calle='Wallaci', numero=24, localidad='Cali', provincia='Colombia'}, email='a@a.com'}
+[2024-06-26 21:21:12] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-26 21:21:32] [ INFO ] [OdontologoService:20] Guardando un nuevo odontologo: 
+Odontologo{id=null, matricula='564641', nombre='ari', apellido='sosa'}
+[2024-06-26 21:21:34] [ INFO ] [OdontologoService:54] Buscando todos los odontologos
+[2024-06-26 21:21:36] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-26 21:21:36] [ INFO ] [OdontologoService:54] Buscando todos los odontologos
+[2024-06-26 21:21:42] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-26 21:42:52] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-26 21:43:16] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='ari', apellido='sosa', cedula='2323', fechaIngreso=2024-06-04, domicilio=
+ Domicilio{id=null, calle='Wallaci', numero=24, localidad='Cali', provincia='Colombia'}, email='s@hotmail.com'}
+[2024-06-26 21:43:20] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-26 21:44:39] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='ari', apellido='sosa', cedula='23323', fechaIngreso=2024-05-30, domicilio=
+ Domicilio{id=null, calle='Wallaci', numero=24, localidad='Cali', provincia='Colombia'}, email='danus-97@hotmail.com'}
+[2024-06-26 21:47:37] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-26 21:54:26] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-26 21:54:54] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-26 21:55:08] [ INFO ] [OdontologoService:20] Guardando un nuevo odontologo: 
+Odontologo{id=null, matricula='81223113', nombre='Ramon', apellido='Gonzales'}
+[2024-06-26 21:55:10] [ INFO ] [OdontologoService:20] Guardando un nuevo odontologo: 
+Odontologo{id=null, matricula='81223113', nombre='Ramon', apellido='Gonzales'}
+[2024-06-26 21:55:12] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 2
+[2024-06-26 21:55:12] [ INFO ] [OdontologoService:39] Buscando el odontologo con ID: 1
+[2024-06-26 21:55:12] [ INFO ] [TurnoService:19] Guardando un nuevo turno: 
+Turno{id=null, paciente=
+Paciente{id=2, nombre='ari', apellido='sosa', cedula='23323', fechaIngreso=2024-05-30, domicilio=
+ Domicilio{id=2, calle='Wallaci', numero=24, localidad='Cali', provincia='Colombia'}, email='danus-97@hotmail.com'}, odontologo=
+Odontologo{id=1, matricula='81223113', nombre='Ramon', apellido='Gonzales'}, fecha=2024-05-28}
+[2024-06-26 21:55:15] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-26 21:55:22] [ INFO ] [OdontologoService:54] Buscando todos los odontologos
+[2024-06-26 21:55:23] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-26 21:55:28] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-26 21:55:28] [ INFO ] [OdontologoService:54] Buscando todos los odontologos
+[2024-06-26 22:03:25] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 2
+[2024-06-26 22:03:25] [ INFO ] [OdontologoService:39] Buscando el odontologo con ID: 1
+[2024-06-26 22:03:25] [ INFO ] [TurnoService:19] Guardando un nuevo turno: 
+Turno{id=null, paciente=
+Paciente{id=2, nombre='ari', apellido='sosa', cedula='23323', fechaIngreso=2024-05-30, domicilio=
+ Domicilio{id=2, calle='Wallaci', numero=24, localidad='Cali', provincia='Colombia'}, email='danus-97@hotmail.com'}, odontologo=
+Odontologo{id=1, matricula='81223113', nombre='Ramon', apellido='Gonzales'}, fecha=2024-05-28}
+[2024-06-26 22:18:56] [ INFO ] [OdontologoService:20] Guardando un nuevo odontologo: 
+Odontologo{id=null, matricula='564641', nombre='ari', apellido='sosa'}
+[2024-06-26 22:19:00] [ INFO ] [OdontologoService:54] Buscando todos los odontologos
+[2024-06-26 22:19:43] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='Lucia', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=null, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='luciana1@gmail.com'}
+[2024-06-26 22:23:29] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='Lucia', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=null, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='luciana@gmail.com'}
+[2024-06-26 22:23:32] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 2
+[2024-06-26 22:23:32] [ INFO ] [OdontologoService:39] Buscando el odontologo con ID: 1
+[2024-06-26 22:23:32] [ INFO ] [TurnoService:19] Guardando un nuevo turno: 
+Turno{id=null, paciente=
+Paciente{id=2, nombre='Lucia', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=2, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='luciana@gmail.com'}, odontologo=
+Odontologo{id=1, matricula='564641', nombre='ari', apellido='sosa'}, fecha=2024-05-28}
+[2024-06-26 22:23:35] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-26 22:23:42] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-26 22:23:43] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-26 22:23:44] [ INFO ] [OdontologoService:54] Buscando todos los odontologos
+[2024-06-26 22:29:19] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-26 22:55:52] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='María', apellido='Lopez', cedula='222222', fechaIngreso=2023-01-01, domicilio=null, email='maria@digitalhouse.com'}
+[2024-06-26 22:55:52] [ INFO ] [OdontologoService:20] Guardando un nuevo odontologo: 
+Odontologo{id=null, matricula='Ana', nombre='Ramirez', apellido='MAT5678'}
+[2024-06-26 22:55:52] [ INFO ] [TurnoService:19] Guardando un nuevo turno: 
+Turno{id=null, paciente=
+Paciente{id=1, nombre='María', apellido='Lopez', cedula='222222', fechaIngreso=2023-01-01, domicilio=null, email='maria@digitalhouse.com'}, odontologo=
+Odontologo{id=1, matricula='Ana', nombre='Ramirez', apellido='MAT5678'}, fecha=2024-06-20}
+[2024-06-26 22:55:52] [ INFO ] [TurnoService:38] Buscando el turno con ID: 1
+[2024-06-26 22:55:52] [ INFO ] [TurnoService:38] Buscando el turno con ID: 1
+[2024-06-26 22:55:52] [ INFO ] [TurnoService:31] Turno actualizado: 
+Turno{id=1, paciente=
+Paciente{id=1, nombre='María', apellido='Lopez', cedula='222222', fechaIngreso=2023-01-01, domicilio=null, email='maria@digitalhouse.com'}, odontologo=
+Odontologo{id=1, matricula='Ana', nombre='Ramirez', apellido='MAT5678'}, fecha=2024-07-01}
+[2024-06-26 22:55:52] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-26 22:55:52] [ INFO ] [TurnoService:49] Eliminando el turno con ID: 1
+[2024-06-26 22:55:52] [ INFO ] [TurnoService:38] Buscando el turno con ID: 1
+[2024-06-26 22:59:50] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='María', apellido='Lopez', cedula='222222', fechaIngreso=2023-01-01, domicilio=null, email='maria@digitalhouse.com'}
+[2024-06-26 22:59:50] [ INFO ] [OdontologoService:20] Guardando un nuevo odontologo: 
+Odontologo{id=null, matricula='Ana', nombre='Ramirez', apellido='MAT5678'}
+[2024-06-26 22:59:50] [ INFO ] [TurnoService:19] Guardando un nuevo turno: 
+Turno{id=null, paciente=
+Paciente{id=1, nombre='María', apellido='Lopez', cedula='222222', fechaIngreso=2023-01-01, domicilio=null, email='maria@digitalhouse.com'}, odontologo=
+Odontologo{id=1, matricula='Ana', nombre='Ramirez', apellido='MAT5678'}, fecha=2024-06-20}
+[2024-06-26 22:59:50] [ INFO ] [TurnoService:38] Buscando el turno con ID: 1
+[2024-06-26 22:59:50] [ INFO ] [TurnoService:38] Buscando el turno con ID: 1
+[2024-06-26 22:59:50] [ INFO ] [TurnoService:31] Turno actualizado: 
+Turno{id=1, paciente=
+Paciente{id=1, nombre='María', apellido='Lopez', cedula='222222', fechaIngreso=2023-01-01, domicilio=null, email='maria@digitalhouse.com'}, odontologo=
+Odontologo{id=1, matricula='Ana', nombre='Ramirez', apellido='MAT5678'}, fecha=2024-07-01}
+[2024-06-26 22:59:50] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-26 22:59:50] [ INFO ] [TurnoService:49] Eliminando el turno con ID: 1
+[2024-06-26 22:59:50] [ INFO ] [TurnoService:38] Buscando el turno con ID: 1
+[2024-06-26 23:00:55] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='ari', apellido='sosa', cedula='2323', fechaIngreso=2024-05-31, domicilio=
+ Domicilio{id=null, calle='Wallaci', numero=24, localidad='Cali', provincia='Colombia'}, email='martikvd@hotmail.com'}
+[2024-06-26 23:00:57] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-26 23:01:03] [ INFO ] [OdontologoService:20] Guardando un nuevo odontologo: 
+Odontologo{id=null, matricula='564641', nombre='ari', apellido='sosa'}
+[2024-06-26 23:01:04] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-26 23:01:04] [ INFO ] [OdontologoService:54] Buscando todos los odontologos
+[2024-06-26 23:01:10] [ INFO ] [TurnoService:54] Buscando todos los turnos
