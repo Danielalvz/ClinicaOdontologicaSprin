@@ -1794,3 +1794,101 @@ Odontologo{id=1, matricula='564641dd', nombre='ari', apellido='sosa'}
 [2024-06-27 22:19:29] [ INFO ] [OdontologoService:20] Guardando un nuevo odontologo: 
 Odontologo{id=null, matricula='d', nombre='d', apellido='d'}
 [2024-06-27 22:19:31] [ INFO ] [OdontologoService:54] Buscando todos los odontologos
+[2024-06-27 22:21:39] [ INFO ] [OdontologoService:54] Buscando todos los odontologos
+[2024-06-27 22:21:39] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-27 22:21:56] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='ari', apellido='sosa', cedula='2323', fechaIngreso=2024-06-06, domicilio=
+ Domicilio{id=null, calle='Wallaci', numero=24, localidad='Cali', provincia='Colombia'}, email='a@a.com'}
+[2024-06-27 22:23:52] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='ari', apellido='sosa', cedula='2323', fechaIngreso=2024-06-07, domicilio=
+ Domicilio{id=null, calle='Wallaci', numero=24, localidad='Cali', provincia='Colombia'}, email='a@a.com'}
+[2024-06-27 22:23:55] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-27 22:24:00] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-27 22:24:00] [ INFO ] [OdontologoService:54] Buscando todos los odontologos
+[2024-06-27 22:24:06] [ INFO ] [OdontologoService:20] Guardando un nuevo odontologo: 
+Odontologo{id=null, matricula='564641', nombre='ari', apellido='sosa'}
+[2024-06-27 22:24:12] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-27 22:24:12] [ INFO ] [OdontologoService:54] Buscando todos los odontologos
+[2024-06-27 23:01:31] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='ari', apellido='sosa', cedula='2323', fechaIngreso=2024-05-31, domicilio=
+ Domicilio{id=null, calle='Wallaci', numero=24, localidad='Cali', provincia='Colombia'}, email='a@a.com'}
+[2024-06-27 23:01:41] [ INFO ] [OdontologoService:20] Guardando un nuevo odontologo: 
+Odontologo{id=null, matricula='564641', nombre='ari', apellido='sosa'}
+[2024-06-27 23:01:43] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-27 23:01:43] [ INFO ] [OdontologoService:54] Buscando todos los odontologos
+[2024-06-27 23:01:47] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 1
+[2024-06-27 23:01:47] [ INFO ] [OdontologoService:39] Buscando el odontologo con ID: 1
+[2024-06-27 23:01:47] [ INFO ] [TurnoService:19] Guardando un nuevo turno: 
+Turno{id=null, paciente=
+Paciente{id=1, nombre='ari', apellido='sosa', cedula='2323', fechaIngreso=2024-05-31, domicilio=
+ Domicilio{id=1, calle='Wallaci', numero=24, localidad='Cali', provincia='Colombia'}, email='a@a.com'}, odontologo=
+Odontologo{id=1, matricula='564641', nombre='ari', apellido='sosa'}, fecha=2024-06-13}
+[2024-06-27 23:01:49] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-27 23:01:52] [ INFO ] [TurnoService:38] Buscando el turno con ID: 1
+[2024-06-27 23:01:56] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-27 23:01:58] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-27 23:01:59] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-27 23:02:00] [ INFO ] [TurnoService:38] Buscando el turno con ID: 1
+[2024-06-27 23:02:06] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-27 23:02:07] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-27 23:02:09] [ INFO ] [TurnoService:38] Buscando el turno con ID: 1
+[2024-06-27 23:07:19] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-27 23:07:25] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-27 23:07:43] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='ari', apellido='sosa', cedula='2323', fechaIngreso=2024-06-12, domicilio=
+ Domicilio{id=null, calle='Wallaci', numero=24, localidad='Cali', provincia='Colombia'}, email='a@a.com'}
+[2024-06-27 23:07:49] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-27 23:07:55] [ INFO ] [OdontologoService:20] Guardando un nuevo odontologo: 
+Odontologo{id=null, matricula='564641', nombre='ari', apellido='sosa'}
+[2024-06-27 23:07:57] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-27 23:07:57] [ INFO ] [OdontologoService:54] Buscando todos los odontologos
+[2024-06-27 23:08:01] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 1
+[2024-06-27 23:08:01] [ INFO ] [OdontologoService:39] Buscando el odontologo con ID: 1
+[2024-06-27 23:08:01] [ INFO ] [TurnoService:19] Guardando un nuevo turno: 
+Turno{id=null, paciente=
+Paciente{id=1, nombre='ari', apellido='sosa', cedula='2323', fechaIngreso=2024-06-12, domicilio=
+ Domicilio{id=1, calle='Wallaci', numero=24, localidad='Cali', provincia='Colombia'}, email='a@a.com'}, odontologo=
+Odontologo{id=1, matricula='564641', nombre='ari', apellido='sosa'}, fecha=2024-06-03}
+[2024-06-27 23:08:03] [ INFO ] [OdontologoService:54] Buscando todos los odontologos
+[2024-06-27 23:08:03] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-27 23:08:06] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-27 23:08:07] [ INFO ] [TurnoService:38] Buscando el turno con ID: 1
+[2024-06-27 23:08:11] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-27 23:08:13] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-27 23:08:14] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-27 23:08:14] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-27 23:08:14] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-27 23:08:14] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-27 23:08:15] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-27 23:08:15] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-27 23:08:18] [ INFO ] [TurnoService:38] Buscando el turno con ID: 1
+[2024-06-27 23:08:18] [ INFO ] [TurnoService:49] Eliminando el turno con ID: 1
+[2024-06-27 23:16:16] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-27 23:16:46] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='ari', apellido='sosa', cedula='2323', fechaIngreso=2024-06-06, domicilio=
+ Domicilio{id=null, calle='Wallaci', numero=24, localidad='Cali', provincia='Colombia'}, email='a@a.com'}
+[2024-06-27 23:16:53] [ INFO ] [OdontologoService:20] Guardando un nuevo odontologo: 
+Odontologo{id=null, matricula='564641', nombre='Historia1', apellido='Smith'}
+[2024-06-27 23:16:55] [ INFO ] [OdontologoService:54] Buscando todos los odontologos
+[2024-06-27 23:16:55] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-27 23:17:00] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 1
+[2024-06-27 23:17:00] [ INFO ] [OdontologoService:39] Buscando el odontologo con ID: 1
+[2024-06-27 23:17:00] [ INFO ] [TurnoService:19] Guardando un nuevo turno: 
+Turno{id=null, paciente=
+Paciente{id=1, nombre='ari', apellido='sosa', cedula='2323', fechaIngreso=2024-06-06, domicilio=
+ Domicilio{id=1, calle='Wallaci', numero=24, localidad='Cali', provincia='Colombia'}, email='a@a.com'}, odontologo=
+Odontologo{id=1, matricula='564641', nombre='Historia1', apellido='Smith'}, fecha=2024-06-07}
+[2024-06-27 23:17:02] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-27 23:17:02] [ INFO ] [OdontologoService:54] Buscando todos los odontologos
+[2024-06-27 23:17:09] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 1
+[2024-06-27 23:17:09] [ INFO ] [OdontologoService:39] Buscando el odontologo con ID: 1
+[2024-06-27 23:17:09] [ INFO ] [TurnoService:19] Guardando un nuevo turno: 
+Turno{id=null, paciente=
+Paciente{id=1, nombre='ari', apellido='sosa', cedula='2323', fechaIngreso=2024-06-06, domicilio=
+ Domicilio{id=1, calle='Wallaci', numero=24, localidad='Cali', provincia='Colombia'}, email='a@a.com'}, odontologo=
+Odontologo{id=1, matricula='564641', nombre='Historia1', apellido='Smith'}, fecha=2024-07-04}
+[2024-06-27 23:17:11] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-27 23:17:14] [ INFO ] [TurnoService:38] Buscando el turno con ID: 1
+[2024-06-27 23:17:54] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-27 23:20:22] [ INFO ] [TurnoService:38] Buscando el turno con ID: 1
+[2024-06-27 23:20:22] [ INFO ] [TurnoService:49] Eliminando el turno con ID: 1

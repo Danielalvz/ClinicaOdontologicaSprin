@@ -8,8 +8,8 @@ window.addEventListener('load', function () {
         event.preventDefault();
 
         const formData = {
-            pacienteId: document.querySelector('#paciente').value,
-            odontologoId: document.querySelector('#odontologo').value,
+            paciente: { id: document.querySelector('#paciente').value },
+            odontologo: { id: document.querySelector('#odontologo').value },
             fecha: document.querySelector('#fecha').value
         };
 
@@ -27,7 +27,7 @@ window.addEventListener('load', function () {
                 if (response.ok) {
                     return response.json();
                 } else {
-                    throw new Error('Error en la solicitud.');
+                    return response.json().then(err => { throw new Error(err.message); });
                 }
             })
             .then(data => {
@@ -46,6 +46,7 @@ window.addEventListener('load', function () {
 
                 document.querySelector('#response').innerHTML = errorAlert;
                 document.querySelector('#response').style.display = "block";
+                console.error('Error al guardar el turno:', error);  // Imprimir el error en la consola
                 resetUploadForm();
             });
     });
@@ -73,7 +74,7 @@ window.addEventListener('load', function () {
                 data.forEach(paciente => {
                     const option = document.createElement('option');
                     option.value = paciente.id;
-                    option.textContent = `${paciente.nombre} ${paciente.apellido}`;
+                    option.textContent = `${paciente.nombre}  ${paciente.apellido}`;
                     selectPaciente.appendChild(option);
                 });
             })
@@ -99,7 +100,7 @@ window.addEventListener('load', function () {
                 data.forEach(odontologo => {
                     const option = document.createElement('option');
                     option.value = odontologo.id;
-                    option.textContent = `${odontologo.nombre} ${odontologo.apellido}`;
+                    option.textContent = `${odontologo.nombre}  ${odontologo.apellido}`;
                     selectOdontologo.appendChild(option);
                 });
             })
