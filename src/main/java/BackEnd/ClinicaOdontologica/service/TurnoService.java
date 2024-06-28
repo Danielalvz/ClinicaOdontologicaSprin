@@ -20,19 +20,40 @@ public class TurnoService {
         return turnoRepository.save(turno);
     }
 
+//    public void actualizarTurno(Turno turno) {
+//        Optional<Turno> turnoExistente = turnoRepository.findById(turno.getId());
+//        if (turnoExistente.isPresent()) {
+//            Turno actualizado = turnoExistente.get();
+//            actualizado.setPaciente(turno.getPaciente());
+//            actualizado.setOdontologo(turno.getOdontologo());
+//            actualizado.setFecha(turno.getFecha());
+//            turnoRepository.save(actualizado);
+//            logger.info("Turno actualizado: " + actualizado);
+//        } else {
+//            logger.warn("Turno no encontrado");
+//        }
+//    }
+
     public void actualizarTurno(Turno turno) {
         Optional<Turno> turnoExistente = turnoRepository.findById(turno.getId());
         if (turnoExistente.isPresent()) {
             Turno actualizado = turnoExistente.get();
-            actualizado.setPaciente(turno.getPaciente());
-            actualizado.setOdontologo(turno.getOdontologo());
-            actualizado.setFecha(turno.getFecha());
+            if (turno.getPaciente() != null) {
+                actualizado.setPaciente(turno.getPaciente());
+            }
+            if (turno.getOdontologo() != null) {
+                actualizado.setOdontologo(turno.getOdontologo());
+            }
+            if (turno.getFecha() != null) {
+                actualizado.setFecha(turno.getFecha());
+            }
             turnoRepository.save(actualizado);
             logger.info("Turno actualizado: " + actualizado);
         } else {
             logger.warn("Turno no encontrado");
         }
     }
+
 
     public Optional<Turno> buscarTurnoPorID(Long id) {
         logger.info("Buscando el turno con ID: " + id);

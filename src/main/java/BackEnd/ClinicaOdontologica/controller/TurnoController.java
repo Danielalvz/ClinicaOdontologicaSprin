@@ -74,6 +74,42 @@ public class TurnoController {
         }
     }
 
+    @PutMapping("/{id}")
+    public ResponseEntity<String> actualizarTurno(@PathVariable Long id, @RequestBody Turno turnoActualizado) {
+        Optional<Turno> turnoBuscado = turnoService.buscarTurnoPorID(id);
+        if (turnoBuscado.isPresent()) {
+            Turno turnoExistente = turnoBuscado.get();
+            
+            if (turnoActualizado.getPaciente() != null) {
+                Optional<Paciente> paciente = pacienteService.buscarPacientePorID(turnoActualizado.getPaciente().getId());
+                if (paciente.isPresent()) {
+                    turnoExistente.setPaciente(paciente.get());
+                } else {
+                    return ResponseEntity.badRequest().body("Paciente no encontrado");
+                }
+            }
+
+            if (turnoActualizado.getOdontologo() != null) {
+                Optional<Odontologo> odontologo = odontologoService.buscarOdontologoPorID(turnoActualizado.getOdontologo().getId());
+                if (odontologo.isPresent()) {
+                    turnoExistente.setOdontologo(odontologo.get());
+                } else {
+                    return ResponseEntity.badRequest().body("Odontólogo no encontrado");
+                }
+            }
+
+            if (turnoActualizado.getFecha() != null) {
+                turnoExistente.setFecha(turnoActualizado.getFecha());
+            }
+
+            turnoService.actualizarTurno(turnoExistente);
+            return ResponseEntity.ok().body("Turno actualizado correctamente");
+        } else {
+            return ResponseEntity.notFound().build();
+        }
+    }
+
+
     @GetMapping("/{id}")
     public ResponseEntity<Turno> buscarTurnoPorId(@PathVariable Long id) {
         Optional<Turno> turnoBuscado = turnoService.buscarTurnoPorID(id);

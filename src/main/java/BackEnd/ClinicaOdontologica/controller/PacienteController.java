@@ -63,4 +63,14 @@ public class PacienteController {
             return ResponseEntity.notFound().build();
         }
     }
+
+    @GetMapping("/buscar/{nombre}/{apellido}")
+    public ResponseEntity<Paciente> buscarPorNombreYApellido(@PathVariable String nombre, @PathVariable String apellido) {
+        Optional<Paciente>  paciente = pacienteService.findByNombreAndApellido(nombre, apellido);
+        if(paciente.isPresent()) {
+            return ResponseEntity.ok(paciente.get());
+        } else {
+            return ResponseEntity.notFound().build();
+        }
+    }
 }

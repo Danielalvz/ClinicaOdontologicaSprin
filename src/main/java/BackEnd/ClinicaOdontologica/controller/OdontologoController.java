@@ -54,9 +54,19 @@ public class OdontologoController {
             return ResponseEntity.badRequest().body("Odontólogo no encontrado");
         }
     }
-    @GetMapping("/buscar/{matricula}")
+    @GetMapping("/matricula/{matricula}")
     public ResponseEntity<Odontologo> buscarPorMatricula(@PathVariable String matricula) {
         Optional<Odontologo> odontologoBuscado = odontologoService.buscarPorMatricula(matricula);
+        if (odontologoBuscado.isPresent()) {
+            return ResponseEntity.ok(odontologoBuscado.get());
+        } else {
+            return ResponseEntity.notFound().build();
+        }
+    }
+
+    @GetMapping("/buscar/{nombre}/{apellido}")
+    public ResponseEntity<Odontologo> buscarPorNombreYApellido(@PathVariable String nombre, @PathVariable String apellido) {
+        Optional<Odontologo> odontologoBuscado = odontologoService.findByNombreAndApellido(nombre, apellido);
         if (odontologoBuscado.isPresent()) {
             return ResponseEntity.ok(odontologoBuscado.get());
         } else {

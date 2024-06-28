@@ -54,4 +54,9 @@ public class OdontologoService {
         logger.info("Buscando todos los odontologos");
         return odontologoRepository.findAll();
     }
+
+    public Optional<Odontologo> findByNombreAndApellido(String nombre, String apellido) {
+        logger.info("Buscando el odontologo con nombre y apellido: " + nombre + ' ' + apellido);
+        return odontologoRepository.findByNombreAndApellido(nombre, apellido);
+    }
 }

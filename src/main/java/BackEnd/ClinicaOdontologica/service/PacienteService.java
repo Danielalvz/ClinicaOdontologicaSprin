@@ -54,4 +54,9 @@ public class PacienteService {
         return pacienteRepository.findAll();
     }
 
+    public Optional<Paciente> findByNombreAndApellido(String nombre, String apellido) {
+        logger.info("Buscando el paciente con nombre y apellido: " + nombre + ' ' + apellido);
+        return pacienteRepository.findByNombreAndApellido(nombre, apellido);
+    }
+
 }
