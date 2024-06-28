@@ -1410,3 +1410,207 @@ Odontologo{id=null, matricula='564641', nombre='ari', apellido='sosa'}
 [2024-06-26 23:01:04] [ INFO ] [PacienteService:53] Buscando todos los pacientes
 [2024-06-26 23:01:04] [ INFO ] [OdontologoService:54] Buscando todos los odontologos
 [2024-06-26 23:01:10] [ INFO ] [TurnoService:54] Buscando todos los turnos
+[2024-06-26 23:12:45] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='ari', apellido='sosa', cedula='2323', fechaIngreso=2024-06-05, domicilio=
+ Domicilio{id=null, calle='Wallaci', numero=24, localidad='Cali', provincia='Colombia'}, email='s@hotmail.com'}
+[2024-06-26 23:12:47] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-26 23:43:28] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='ari', apellido='sosa', cedula='2323', fechaIngreso=2024-06-11, domicilio=
+ Domicilio{id=null, calle='Wallaci', numero=24, localidad='Cali', provincia='Colombia'}, email='danivasquez037@gmail.com'}
+[2024-06-26 23:43:30] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-26 23:43:37] [ INFO ] [OdontologoService:20] Guardando un nuevo odontologo: 
+Odontologo{id=null, matricula='564641', nombre='ari', apellido='dfgfd'}
+[2024-06-26 23:43:39] [ INFO ] [OdontologoService:54] Buscando todos los odontologos
+[2024-06-26 23:43:42] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-26 23:45:16] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 3
+[2024-06-26 23:45:31] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 2
+[2024-06-26 23:45:36] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-26 23:45:41] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='Lucia', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=null, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='luciana@gmail.com'}
+[2024-06-26 23:45:45] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-26 23:45:49] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 2
+[2024-06-26 23:45:49] [ INFO ] [PacienteService:24] Actualizando el paciente con ID: 2
+[2024-06-26 23:45:49] [ INFO ] [PacienteService:35] Paciente actualizado: 
+Paciente{id=2, nombre='Luciana', apellido='Corrales', cedula='11111', fechaIngreso=2024-05-12, domicilio=
+ Domicilio{id=3, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='luciani@gmail.com'}
+[2024-06-26 23:45:54] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-26 23:48:57] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='ari', apellido='sosa', cedula='2323', fechaIngreso=2024-06-13, domicilio=
+ Domicilio{id=null, calle='Wallaci', numero=24, localidad='Cali', provincia='Colombia'}, email='a@a.com'}
+[2024-06-26 23:49:00] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-26 23:50:52] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='Lucia', apellido='Velez', cedula='11111', fechaIngreso=2024-05-22, domicilio=
+ Domicilio{id=null, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='luciana@gmail.com'}
+[2024-06-26 23:50:55] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 2
+[2024-06-26 23:50:55] [ INFO ] [PacienteService:24] Actualizando el paciente con ID: 2
+[2024-06-26 23:50:55] [ INFO ] [PacienteService:35] Paciente actualizado: 
+Paciente{id=2, nombre='Luciana', apellido='Corrales', cedula='11111', fechaIngreso=2024-05-12, domicilio=
+ Domicilio{id=3, calle='Calle falsa', numero=2, localidad='Bogotá', provincia='Colombia'}, email='luciani@gmail.com'}
+[2024-06-26 23:54:22] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-26 23:55:21] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='ari', apellido='sosa', cedula='2323', fechaIngreso=2024-06-03, domicilio=
+ Domicilio{id=null, calle='Wallaci', numero=24, localidad='Cali', provincia='Colombia'}, email='danivasquez037@gmail.com'}
+[2024-06-26 23:55:24] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-27 00:03:14] [ INFO ] [OdontologoService:20] Guardando un nuevo odontologo: 
+Odontologo{id=null, matricula='564641', nombre='ari', apellido='sosa'}
+[2024-06-27 00:03:16] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-27 00:03:16] [ INFO ] [OdontologoService:54] Buscando todos los odontologos
+[2024-06-27 16:40:55] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='ari', apellido='sosa', cedula='2323', fechaIngreso=2024-06-04, domicilio=
+ Domicilio{id=null, calle='Wallaci', numero=24, localidad='Cali', provincia='Colombia'}, email='s@hotmail.com'}
+[2024-06-27 16:40:57] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-27 16:47:12] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='ari', apellido='sosa', cedula='2323', fechaIngreso=2024-06-06, domicilio=
+ Domicilio{id=null, calle='Wallaci', numero=24, localidad='Cali', provincia='Colombia'}, email='a@a.com'}
+[2024-06-27 16:47:15] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-27 16:47:18] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 1
+[2024-06-27 16:47:24] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-27 16:47:41] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 1
+[2024-06-27 16:47:56] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-27 16:48:12] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 1
+[2024-06-27 16:48:17] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-27 17:00:57] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='ari', apellido='sosa', cedula='2323', fechaIngreso=2024-06-08, domicilio=
+ Domicilio{id=null, calle='Wallaci', numero=24, localidad='Cali', provincia='Colombia'}, email='a@a.com'}
+[2024-06-27 17:01:02] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-27 17:01:04] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 1
+[2024-06-27 17:01:16] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 1
+[2024-06-27 17:01:16] [ INFO ] [PacienteService:24] Actualizando el paciente con ID: 1
+[2024-06-27 17:01:16] [ INFO ] [PacienteService:35] Paciente actualizado: 
+Paciente{id=1, nombre='arisitA', apellido='sosa', cedula='2323', fechaIngreso=2024-06-08, domicilio=null, email='a@a.com'}
+[2024-06-27 17:01:16] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-27 17:05:52] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='ari', apellido='sosa', cedula='2323', fechaIngreso=2024-06-15, domicilio=
+ Domicilio{id=null, calle='Wallaci', numero=24, localidad='Cali', provincia='Colombia'}, email='a@a.com'}
+[2024-06-27 17:06:03] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-27 17:06:35] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 1
+[2024-06-27 17:06:44] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-27 17:39:47] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='ari', apellido='sosa', cedula='2323', fechaIngreso=2024-06-05, domicilio=
+ Domicilio{id=null, calle='Wallaci', numero=24, localidad='Cali', provincia='Colombia'}, email='danivasquez037@gmail.com'}
+[2024-06-27 17:40:03] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-27 17:48:36] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='ari', apellido='sosa', cedula='2323', fechaIngreso=2024-06-11, domicilio=
+ Domicilio{id=null, calle='Wallaci', numero=24, localidad='Cali', provincia='Colombia'}, email='a@a.com'}
+[2024-06-27 17:48:38] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-27 17:48:40] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 1
+[2024-06-27 17:57:35] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='ari', apellido='sosa', cedula='2323', fechaIngreso=2024-06-01, domicilio=
+ Domicilio{id=null, calle='Wallaci', numero=24, localidad='Cali', provincia='Colombia'}, email='danus-97@hotmail.com'}
+[2024-06-27 17:57:40] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-27 17:57:58] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 1
+[2024-06-27 18:01:01] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='ari', apellido='sosa', cedula='2323', fechaIngreso=2024-06-08, domicilio=
+ Domicilio{id=null, calle='Wallaci', numero=24, localidad='Cali', provincia='Colombia'}, email='a@a.com'}
+[2024-06-27 18:01:08] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-27 18:33:35] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='ari', apellido='sosa', cedula='2323', fechaIngreso=2024-06-01, domicilio=
+ Domicilio{id=null, calle='Wallaci', numero=24, localidad='Cali', provincia='Colombia'}, email='danivasquez0310@gmail.com'}
+[2024-06-27 18:33:40] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-27 18:33:43] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 1
+[2024-06-27 20:14:19] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='ari', apellido='sosa', cedula='2323', fechaIngreso=2024-06-12, domicilio=
+ Domicilio{id=null, calle='Wallaci', numero=24, localidad='Cali', provincia='Colombia'}, email='s@hotmail.com'}
+[2024-06-27 20:14:23] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-27 20:14:24] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 1
+[2024-06-27 20:21:07] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='ari', apellido='sosa', cedula='2323', fechaIngreso=2024-06-07, domicilio=
+ Domicilio{id=null, calle='Wallaci', numero=24, localidad='Cali', provincia='Colombia'}, email='danivasquez037@gmail.com'}
+[2024-06-27 20:21:09] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-27 20:21:11] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 1
+[2024-06-27 20:22:30] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='ari', apellido='sosa', cedula='2323', fechaIngreso=2024-06-12, domicilio=
+ Domicilio{id=null, calle='Wallaci', numero=24, localidad='Cali', provincia='Colombia'}, email='a@a.com'}
+[2024-06-27 20:22:32] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-27 20:22:34] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 1
+[2024-06-27 20:22:38] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 1
+[2024-06-27 20:22:38] [ INFO ] [PacienteService:24] Actualizando el paciente con ID: 1
+[2024-06-27 20:22:38] [ INFO ] [PacienteService:35] Paciente actualizado: 
+Paciente{id=1, nombre='ariv', apellido='sosa', cedula='2323', fechaIngreso=2024-06-12, domicilio=
+ Domicilio{id=2, calle='Wallaci', numero=null, localidad='null', provincia='null'}, email='a@a.com'}
+[2024-06-27 20:22:40] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 1
+[2024-06-27 20:22:40] [ INFO ] [PacienteService:24] Actualizando el paciente con ID: 1
+[2024-06-27 20:22:40] [ INFO ] [PacienteService:35] Paciente actualizado: 
+Paciente{id=1, nombre='ariv', apellido='sosa', cedula='2323', fechaIngreso=2024-06-12, domicilio=
+ Domicilio{id=3, calle='Wallaci', numero=null, localidad='null', provincia='null'}, email='a@a.com'}
+[2024-06-27 20:23:23] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 1
+[2024-06-27 20:23:23] [ INFO ] [PacienteService:24] Actualizando el paciente con ID: 1
+[2024-06-27 20:23:23] [ INFO ] [PacienteService:35] Paciente actualizado: 
+Paciente{id=1, nombre='arivs', apellido='sosa', cedula='2323', fechaIngreso=2024-06-12, domicilio=
+ Domicilio{id=4, calle='Wallaci', numero=null, localidad='null', provincia='null'}, email='a@a.com'}
+[2024-06-27 20:23:39] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-27 20:29:53] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='ari', apellido='sosa', cedula='2323', fechaIngreso=2024-06-03, domicilio=
+ Domicilio{id=null, calle='Wallaci', numero=24, localidad='Cali', provincia='Colombia'}, email='a@a.com'}
+[2024-06-27 20:29:57] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-27 20:29:58] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 1
+[2024-06-27 20:30:03] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 1
+[2024-06-27 20:30:03] [ INFO ] [PacienteService:24] Actualizando el paciente con ID: 1
+[2024-06-27 20:30:03] [ INFO ] [PacienteService:35] Paciente actualizado: 
+Paciente{id=1, nombre='ariss', apellido='sosass', cedula='2323', fechaIngreso=2024-06-03, domicilio=
+ Domicilio{id=2, calle='Wallaci', numero=null, localidad='null', provincia='null'}, email='a@a.com'}
+[2024-06-27 20:30:09] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-27 20:36:42] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='ari', apellido='sosa', cedula='2323', fechaIngreso=2024-06-11, domicilio=
+ Domicilio{id=null, calle='Wallaci', numero=24, localidad='Cali', provincia='Colombia'}, email='a@a.com'}
+[2024-06-27 20:36:51] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-27 20:38:11] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='ari', apellido='sosa', cedula='2323', fechaIngreso=2024-06-06, domicilio=
+ Domicilio{id=null, calle='Wallaci', numero=24, localidad='Cali', provincia='Colombia'}, email='a'}
+[2024-06-27 20:38:17] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-27 20:40:13] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 1
+[2024-06-27 20:40:15] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 1
+[2024-06-27 20:40:15] [ INFO ] [PacienteService:24] Actualizando el paciente con ID: 1
+[2024-06-27 20:40:15] [ INFO ] [PacienteService:35] Paciente actualizado: 
+Paciente{id=1, nombre='arif', apellido='sosa', cedula='2323', fechaIngreso=2024-06-06, domicilio=
+ Domicilio{id=2, calle='Wallaci', numero=null, localidad='null', provincia='null'}, email='a'}
+[2024-06-27 20:40:19] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-27 20:43:39] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='ari', apellido='sosa', cedula='2323', fechaIngreso=2024-06-06, domicilio=
+ Domicilio{id=null, calle='Wallaci', numero=24, localidad='Cali', provincia='Colombia'}, email='a@a.com'}
+[2024-06-27 20:43:44] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-27 20:46:44] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='ari', apellido='sosa', cedula='2323', fechaIngreso=2024-06-18, domicilio=
+ Domicilio{id=null, calle='Wallaci', numero=24, localidad='Cali', provincia='Colombia'}, email='s@hotmail.com'}
+[2024-06-27 20:46:48] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-27 20:46:50] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 1
+[2024-06-27 20:46:52] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 1
+[2024-06-27 20:46:52] [ INFO ] [PacienteService:24] Actualizando el paciente con ID: 1
+[2024-06-27 20:46:52] [ INFO ] [PacienteService:35] Paciente actualizado: 
+Paciente{id=1, nombre='ariss', apellido='sosa', cedula='2323', fechaIngreso=2024-06-18, domicilio=
+ Domicilio{id=2, calle='Wallaci', numero=null, localidad='null', provincia='null'}, email='s@hotmail.com'}
+[2024-06-27 20:46:59] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-27 20:47:28] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 1
+[2024-06-27 20:47:37] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 1
+[2024-06-27 20:47:37] [ INFO ] [PacienteService:24] Actualizando el paciente con ID: 1
+[2024-06-27 20:47:37] [ INFO ] [PacienteService:35] Paciente actualizado: 
+Paciente{id=1, nombre='arissAAAAAAAAAAAAA', apellido='sosa', cedula='2323', fechaIngreso=2024-06-18, domicilio=
+ Domicilio{id=3, calle='Wallaci', numero=null, localidad='null', provincia='null'}, email='s@hotmail.com'}
+[2024-06-27 20:49:19] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='ari', apellido='sosa', cedula='2323', fechaIngreso=2024-06-04, domicilio=
+ Domicilio{id=null, calle='Wallaci', numero=24, localidad='Cali', provincia='Colombia'}, email='a@a.com'}
+[2024-06-27 20:49:24] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-27 20:49:29] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 1
+[2024-06-27 20:49:32] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 1
+[2024-06-27 20:49:32] [ INFO ] [PacienteService:24] Actualizando el paciente con ID: 1
+[2024-06-27 20:49:32] [ INFO ] [PacienteService:35] Paciente actualizado: 
+Paciente{id=1, nombre='ariddd', apellido='sosa', cedula='2323', fechaIngreso=2024-06-04, domicilio=
+ Domicilio{id=2, calle='Wallaci', numero=null, localidad='null', provincia='null'}, email='a@a.com'}
+[2024-06-27 20:49:42] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 1
+[2024-06-27 20:49:42] [ INFO ] [PacienteService:24] Actualizando el paciente con ID: 1
+[2024-06-27 20:49:42] [ INFO ] [PacienteService:35] Paciente actualizado: 
+Paciente{id=1, nombre='aridddd', apellido='sosa', cedula='2323', fechaIngreso=2024-06-04, domicilio=
+ Domicilio{id=3, calle='Wallaci', numero=null, localidad='null', provincia='null'}, email='a@a.com'}
+[2024-06-27 20:49:49] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-27 20:59:23] [ INFO ] [PacienteService:20] Guardando un nuevo paciente: 
+Paciente{id=null, nombre='ari', apellido='sosa', cedula='2323', fechaIngreso=2024-06-08, domicilio=
+ Domicilio{id=null, calle='cvbvcb', numero=24, localidad='Cali', provincia='Colombia'}, email='a@a.com'}
+[2024-06-27 20:59:27] [ INFO ] [PacienteService:53] Buscando todos los pacientes
+[2024-06-27 20:59:30] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 1
+[2024-06-27 20:59:32] [ INFO ] [PacienteService:41] Buscando el paciente con ID: 1
+[2024-06-27 20:59:32] [ INFO ] [PacienteService:24] Actualizando el paciente con ID: 1
+[2024-06-27 20:59:32] [ INFO ] [PacienteService:35] Paciente actualizado: 
+Paciente{id=1, nombre='aricd', apellido='sosa', cedula='2323', fechaIngreso=2024-06-08, domicilio=
+ Domicilio{id=2, calle='cvbvcb', numero=null, localidad='null', provincia='null'}, email='a@a.com'}
+[2024-06-27 20:59:35] [ INFO ] [PacienteService:53] Buscando todos los pacientes
