@@ -23,5 +23,13 @@ private BCryptPasswordEncoder passwordEncoder;
         System.out.println("pass cifrado: "+passCifrado);
         usuarioRepository.save(usuario);
 
+        String userPassword = "user";
+        String userPasswordEncoded = passwordEncoder.encode(userPassword);
+        Usuario normalUser = new Usuario("user", UsuarioRole.ROLE_USER, userPasswordEncoded, "user@user.com", "user");
+        usuarioRepository.save(normalUser);
+
+        System.out.println("Usuarios iniciales creados");
     }
+
+
 }

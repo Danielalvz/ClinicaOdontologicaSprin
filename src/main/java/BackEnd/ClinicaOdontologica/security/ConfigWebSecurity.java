@@ -32,16 +32,30 @@ public class ConfigWebSecurity {
         return provider;
     }
 
+//    @Bean
+//    public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+//        http
+//                .csrf(AbstractHttpConfigurer :: disable)
+//                .authorizeHttpRequests((authz) -> authz
+//                        .requestMatchers("/post_pacientes.html", "/get_pacientes.html", "/post_odontologos.html", "get_odontologos.html", "get_turnos.html", "post_turnos.html").hasRole("ADMIN")
+//                        .anyRequest().authenticated()
+//                )
+//                .formLogin(withDefaults())
+//                .logout(withDefaults());
+//        return http.build();
+//    }
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http
-                .csrf(AbstractHttpConfigurer :: disable)
+                .csrf(AbstractHttpConfigurer::disable)
                 .authorizeHttpRequests((authz) -> authz
-                        .requestMatchers("/post_pacientes.html", "/get_pacientes.html", "/post_odontologos.html", "get_odontologos.html", "get_turnos.html", "post_turnos.html").hasRole("ADMIN")
+                        .requestMatchers("/post_pacientes.html", "/get_turnos.html", "/post_turnos.html").hasAnyRole("ADMIN", "USER")
+                        .requestMatchers("/get_pacientes.html", "/post_odontologos.html", "/get_odontologos.html").hasRole("ADMIN")
                         .anyRequest().authenticated()
                 )
                 .formLogin(withDefaults())
                 .logout(withDefaults());
+
         return http.build();
     }
 }
